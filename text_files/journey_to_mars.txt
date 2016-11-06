@@ -1,0 +1,35 @@
+Return trips to Mars without refuelling could be a step closer, the International Astronautical Congress in Mexico heard today -- because of research from the University of Sydney and the entrepreneurialism of a former student now set to test his invention in space.
+
+The announcement comes weeks after research reporting a world record specific impulse -- a measure of thrust efficiency, like miles per gallon -- was published by a graduate and two professors at the University of Sydney.
+
+The rocket engine is being commercially developed by Neumann Space, the company set up by Dr Patrick Neumann after the completion of his PhD. Dr Neumann, who was part of an international announcement by Airbus Defence & Space today at the congress taking place in Guadalajara, Mexico, sent a statement about the invention.
+
+"Our modelling suggests that our pricing would be competitive with other ion drives currently on the market, as our system can be built from current, commercially available components and does not require expensive alloys or finely constructed fuel tanks," Dr Neumann said.
+
+"We also believe that our system can solve many issues in space propulsion, allowing small space vehicles to do more with less."
+
+Dr Neumann said he had been inspired as a child by science-fiction as well as astronomy texts. "I've known for years that what exists in space can be used to help humanity extend its reach to the stars, while helping people on Earth with weather prediction, communications, mapping, agricultural observations, tracking wildfires and other problems," he said.
+
+The new paper about the unique thruster technology, co-authored by Professors Marcela Bilek and David McKenzie is published in the American Institute of Physics' Applied Physics Letters.
+
+Professor Bilek, whose laboratory Dr Neumann continues to visit for testing in his honorary position in the University of Sydney's School of Physics, said the project was a success in the academic sense with the scientific credentials established in August by peer review and hopefully new success in the market place would follow.
+
+"Even as an undergraduate, Paddy was passionate about aerospace -- and thrusters in particular -- having completed relevant subjects in the University's engineering faculty," Professor Bilek said.
+
+"Patrick came to our lab as an honours student with the idea of using our cathodic arc system, originally constructed for the deposition of nanostructured materials, as a thruster."
+
+Professor of Materials Physics David McKenzie said the project resulted from student-led entrepreneurial activity in liaison with himself and Professor Bilek, who assigned their rights as co-inventors of the technology to Dr Neumann to enable him to work on bringing this technology towards commercialisation.
+
+"In laboratory tests, the system developed at the University of Sydney has demonstrated more than 11000 seconds of specific impulse -- with this level of efficiency, it is possible to send missions to Mars, have them perform experiments in Mars orbit, and then bring the spacecraft back to Earth orbit without needing to refuel the spacecraft," Professor McKenzie said.
+
+Airbus Defence & Space announced today from Mexico that it had signed a contract with Neumann Space to fly Dr Neumann's payload for long-term testing on the International Space Station.
+
+"The testing of Neumann's thruster technology needs to be prepared through the established processes to qualify a payload for flight to the ISS and for its operation on-board the ISS," Airbus Defence & Space said in a statement ahead of the official announcement in Mexico.
+
+"This is currently in preparation and all parties are confident that we will be able to operate the Neumann propulsion system on-board the ISS. The final confirmation for this will be, however, given by Airbus Defence and Space partners ESA and NASA."
+
+About the rocket engine technology:
+
+The thruster works by accelerating ions from an intensely hot, very small plasma ball.
+The record high thrust was obtained by using a magnetic nozzle that further accelerates the ions to give them extremely high velocity.
+Research has not only demonstrated proof-of-concept record efficiencies but also suggested that magnesium, used commonly as a light and strong alloy for space materials and prevalent in space junk orbiting the Earth, could be re-used to fuel the engine in space.

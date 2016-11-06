@@ -1,0 +1,112 @@
+So far in this course, we have worked with one dimensional and two dimensional symmetry
+
+We’ve also looked at patterns and tiling
+
+These types of symmetry required mirror lines, and they also required rotation points
+
+For tiling, we also used translation, and when we combine translation with mirrors, then we created glide planes
+
+In this part of the course, we need to introduce one final concept, the idea of
+chirality
+
+What we would like to do is have you understand the difference between a chiral and an achiral object, and also to be able to describe and explain the function of chirality
+
+The definition of chirality is very straightforward
+
+If you have two objects, one of which is the mirror of the other, and they are not superimposable, then you have a chiral object
+
+A good example are your hands
+
+Clearly, they are mirror
+images of each other, but you cannot superimpose one upon the other
+
+A simple example of an achiral object would be a wine glass
+
+In the case of wine glasses, clearly we have a mirror relationship between them, but in this case, one can be superimposed upon the other
+
+So the definition of chirality is very straightforward, but it also turns out to the very, very important
+
+
+Chirality is also described in textbooks on chemistry
+
+Methane is composed of carbon surrounded by four hydrogens
+
+It’s in the shape of a tetrahedron, and we’ll talk about tetrahedra later in this course
+
+But it is possible to draw multiple mirror planes that intersect that molecule
+
+Therefore the molecule is said to be achiral, because its mirror image can superimpose upon the original object
+
+
+There are a series of molecules which can be used to illustrate chirality
+
+These are the so-called halogenated methanes
+
+In the halogenated methanes, we progressively take away one hydrogen and introduce a halogen
+
+The halogens are fluorine, chlorine, bromine and iodine
+
+If we replace just one of the hydrogens by a halogen, say for example as in fluoromethane, we still have mirrors, therefore the molecule is still achiral
+
+
+If we were able to make a molecule containing two halogens, say fluorochloromethane, we still have a mirror
+
+But when we introduce three different halogens, for example fluorochlorobromomethane, then we destroy all the mirrors, and this is known as a chiral molecule
+
+This idea of having a carbon where each of the four species or entities around it are different, extends to very complicated molecules, and this is where the biological significance of chirality becomes especially important
+
+We are very fortunate today to have Professor Sabu Bankatraman [
+
+, from the School of Material Science and Engineering at NTU to speak to us about this topic
+
+So we welcome you, Sabu, to talk to us today, and in particular to tell us about the troubles that turned about with thalidomide, when it was introduced many years ago
+
+
+So let’s just maybe take a quick look at the thalidomide molecule, and we have the two molecular forms in front of us here
+
+And we can see that they’re clearly chiral objects
+
+The molecules themselves have an aromatic part, they also have some oxygens and some nitrogens involved
+
+But there is clearly a mirror between these two forms, the R and the S form
+
+If we dissect the molecule, then you can see quite
+clearly that there are four discrete entities bonded to that central chiral atom
+
+It’s because of that relationship, that geometric relationship between these entities, that all of the problems with thalidomide began
+
+With really needed to happen, however, was that these drugs would be separated, but it was not so easy to do that
+
+And I think you have some ideas about what went wrong in terms of separation and also how this might be improved or solved for future drugs
+
+
+Right
+
+Very good
+
+I think that we should also say that these – what we’re talking about here is the chemistry of the molecule as a standalone entity, and something that I would like to say is if we look at the textbooks, and we observe the molecule of thalidomide, it’s always shown as a plane, but in fact it’s not really a planar molecule
+
+The two parts have to rotate away from each other, otherwise we find that two of
+the oxygen atoms are too close to each other
+
+So the story in the textbooks is correct, but it is somewhat simplified to the real case
+
+And later on in this course, when we come to look at crystals, and we look at molecular crystals, we will find the story is in fact even a little more complicated
+
+When thalidomide crystallises, it can do so in different ways
+
+These are the alpha and beta polymorphs of thalidomide, and this is something which we’ll discuss in part three of this course
+
+
+So thank you very much, Professor Sabu, we really appreciate your insights today, and I hope that you have learned something more about the importance of chirality in medicine
+
+So now you know what chirality is
+
+A chiral object is one which cannot be superimposed upon its mirror image
+
+In addition, chirality turns out to be tremendously in a lot of biological functions, and therefore and understanding of chirality is critical in biomedicine
+
+Shortly, we’ll start to introduce how we represent chirality mathematically, and in particular in symmetry diagrams
+
+
+

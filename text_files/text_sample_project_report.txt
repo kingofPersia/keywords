@@ -1,0 +1,34 @@
+General architecture
+
+Analyzing enormous datasets requires significant amount of computational power in order for tasks to be performed efficiently in a reasonable time frames. Therefore, the Leibniz Supercomputing Centre Compute Cloud was used to distribute work load and consequently increase the efficiency. The general setup consists of six nodes: one machine functions as a server and other five machines are assigned to be worker nodes. Server virtual machine (VM) has five virtual and five physical CPUs, whereas each client VM has 8 of both types of CPUs. Each machines has additional swap space (50 GB) to enable processing big chunks of the dataset at once. Nodes are interconnected via Local Area Network and have access to the data. In particular, there is a persistent datablock (1 TB) attached to the server which is accessible by every client node through Network File System. All VMs run on Ububtu 14.04 operating system and can be connected to using secure shell network protocol. 
+
+Concerning programming part of the project, it was implemented using Python and R. For Python distributed deployment and communication library execnet was used, that helped to allocate tasks between multiple local and remote CPUs. Execnet provides a share-nothing model with channel-send/receive communication for distributing execution across Python interpreters across version, platform, and network barriers. Server opens multiple gateways to each client machine, afterwards it creates two channels for each gateway. One channel is used for execution of the Python scripts and the other one - for exchanging information and computed results. 
+
+Clustering
+
+Taking into consideration interconnections and structure of the Reddit comments dataset, clustering of the subreddits was considered one of the core tasks of the project since it gives the opportunity to organize data, detect similarities across different subreddits, and potentially build a recommendation system based on user preferences.
+
+Following the steps of the Knowledge Discovery Process, first data was cleaned, integrated, and transformed. Based on the used system architecture, the initial dataset was split into 40 chunks (5 client nodes with 8 CPUs each). This enables to achieve maximum work load for each used CPU and efficiently distribute the tasks. Next, information valuable for the given task was extracted:
+- non-ASCII characters removed;
+- hyperlinks deleted;
+- symbols, other than Latin characters and numbers, ignored.
+The follow up stage was removing English stop-words (i.e. "do", "you", "each", etc.) from each comment. This was performed using the list of stop-words from Natural Language Toolkit (NLTK) Python library. 
+
+At this point the data mining task (clustering) can be performed. The process starts with feature extraction - the set of words that represents every subreddit. From each comment in every single subreddit the topic is extracted, then it is added to the list of topics of a particular subreddit. For this task parsing (building a tree for each sentence) was discarded due to its bad complexity. Instead, the following approach was applied:
+- tokenize a comment into words;
+- tag parts of the speech (verb, adjective, etc.) using tags learned from the NLTK Brown Corpus;
+- find noun phrases patterns based on the context-free grammar rules.
+
+Here, one additional step of filtering subreddits is performed. In case of Reddit dataset, there are some subreddits with extremely low activity, which causes insufficient information for clustering. For example, some subreddits have not more than ten comments, consequently it results in 
+
+The next step is to vectorize obtained features in order to perform clustering. Here, term frequency–inverse document frequency (tf-idf) was used. The vectorizer is limited to 3000 features and ignores terms with document frequency higher than 60\%. Initially, word count vectorizer was used, but tf-idf method outperformed the aforementioned one. Possible explanation might be that tf-idf statistics adjusts to the fact that some words appear more frequently in general. In addition, SVD dimensionality reduction is applied that lowers the dimension of the feature space from 3000 to 1000 features per sample. Vectorizer results are normalized, which maked K-Means behave as spherical K-Means for better results. Since SVD results are not normalized, after the latter step normalization is done again. 
+
+For the clustering couple algorithms were tested, in particular K-Means and DBSCAN with various parameters. 
+
+For K-Means one should determine the optimal number of clusters. Here, the "elbow method" was applied. Figure 1 shows that after having more than 20 clusters the percentage of variance explained does not increase significantly. Thus, K-Means clustering is performed for 20 clusters using L2 distance. Results are shown in Figure 2.
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+00:24 Many of you will be very familiar with the works of Escher. You have seen his wonderful patents and wallpaper designs.
+00:33 If we take a typical example of an Escher wallpaper,such as his fish,
+00:40 It looks wonderful,there is clear symmetry inside that pattern and it looks like fish of two colours.
+00:47 But how did he get to these designs, which at first glance appear to be quite impossible to draw.
+00:53 In fact, what he did was use simple ideas based on plane Bravais Lattices.
+00:59 If we just go to one other page of this book, you can see here, another fish example.
+01:06 But here you can see the way in which he use two oblique bravais lattice to create a fish pattern.
+01:14 On the right hand page, you can see the final product after he coloured the fish.
+01:20 Of course once you see how its done, there is no trick involved.
+01:24 But the final product is really remarkable.
+01:30 Escher then, was a graphic designer obsessed by the regulative vision of the plane.
+01:35 In this lecture then, we are concerned with the way Escher used symmetry to create his wallpapers.
+01:43 These are all based on symmetry.
+01:46 There is one particular aspect of symmetry, which we need to emaphasize.
+01:49 The difference between a Primitive and a Centered Tile.
+01:54 No lets study how Escher created his patterns.
+01:58 And for this exercise, we'll take a cuttlefish.
+02:02 Of course it's shown highly diagramatically.
+02:04 Four tentacles at the bottom, and a very distinctive tail.
+02:09 The starting point for Escher was always the application of a symmetry element.
+02:14 And in this case, we'll begin with a vertical mirror.
+02:19 Through the application of the vertical mirror, we create a pair.
+02:25 The tiling patterns that Escher created were 2 Dimensional.
+02:28 So now, in addition, we have to introduce some translation.
+02:33 In this case, the translation will be vertical.
+02:37 So we have two pairs of cuttlefish at the bottom and uppermost part of the animation.
+02:44 Now that we have the basic relationship for the tile, we can pick put what the tile size is.
+02:52 In this case, the tile size, vertically and horizontally, is shown.
+02:58 In every case, the beginning of that repeat, is at the tip of the tentacle.
+03:05 You will then notice that if you introduce a tile at top, shown in outline through purple, that at evry origin of that tile, you have the tentacle tip.
+03:16 But in fact, there is no reason, to start the origin there.
+03:20 We could start the origin anywhere, as long as we keep the size and shape of the tile equivalent
+03:26 This is what we already learnt, when we spoke about the Peranakn tiles.
+03:31 So now we've moved the tile, to be located just above the pairs of eyes.
+03:37 You can also see, that within that tile, there is only one complete cuttlefish.
+03:42 Not four, as you might suppose.
+03:47 At the bottom of the tile, you can see the left and right hand parts of the tail.
+03:50 At the top of the tile, you can see two pairs of tentacles and one eye on each side.
+03:37 therefore, we could say that the multiplicity of this symmetry, is one.
+04:01 We introduce the cuttlefish at the origin, we only have one cuttlefish.
+04:07 We can then expand the tiling, so that we create the complete pattern.
+04:12 Once we have done that, we create an infinite arrangemaent of tiles.
+04:19 You'll notice that there is no cuttlefish at the centre of the purple tile.
+04:25 So therefore this is not a centered unit cell but a primitive unit cell.
+04:31 How would we go about creating a centered unit cell
+04:35 Let's explore that now.
+04:38 We saw in our first example, that we used a mirror, to create a primitive unit cell.
+04:44 In the second example, we want to create a centered cell.
+04:49 And to do that, we have to apply glide.
+04:53 You'll recall that glide is a combination of reflection and translation.
+04:58 So if we begin by applying the vertical mirror as before, an the follow that by translation, we create a second cuttlefish as shown.
+05:08 We then repeat the operation, so we reflect and translate.
+05:14 So now we have created a cuttlefish at the top of the page and at the bottom of the page which will mark the beginning and end of the unit cell vertically.
+05:23 We apply glide again, to the central squid.
+05:28 In this case, we reflect and translate upwards, we can reflect and translate downwards.
+05:35 We now have, five cuttlefish shown, and this is sufficient to understand what the horizontal and vertical repeats are.
+05:44 In this case, we have taken the tail as being the origin.
+05:50 You can see, that the horizontal repeat is much shorter than the vertical repeat.
+05:53 And overall, the size of the unit cell, through the application of glide, is much larger than the size through the application of reflect, alone.
+06:04 Again, we can move the origin, so that it is positioned just above the pair of eyes.
+06:09 This is equivalent to the origin we selected, for the mirror operation alone.
+06:15 We can then expand the unit cell, so that we start to fill space.
+06:21 You'll notice, that in this unit cell, there are two cuttlefish per unit cell.
+06:29 There's a cuttlefish at the corner, and a cuttlefish at the centre.
+06:33 Because the cuttlefish are identical, we say that this is a centered cell.
+06:39 By repeating that unit cell, we are then able to complete the whole pattern.
+06:49 Now let's explore how Escher, would have manipulated these cuttlefish to create one of his wallpapers.
+06:56 In this example, we'll take the arrangement of cuttlefish that was generated through the application of mirror.
+07:04 Here's the unit cell or the tile that we looked at earlier.
+07:08 In this case, we've moved the origin to the middle of the four tentacles.
+07:16 The first thing Escher would have done, is not disperse the cuttlefish quite so widely, as we have done.
+07:20 But actually collapse the pattern, so that they just touch each other.
+07:26 Once we've got to that point, what you'll observe is that at the centre of the unit cell,
+07:31 there is also a mirror.
+07:35 If you look carefully look at each individual cuttlefish, you will also see that it has bilateral symmetry, there is a mirror prismd.
+07:43 Some of you would have already gussed, that inside of this collapsed tile, there is an inverted cuttlefish.
+07:51 And that is now being highlighted in blue and the eyes inserted.
+07:55 So the relationship between both the blue and brown cuttlefish is very very obvious.
+08:02 Of course once that happens for one tile, it's a very simple matter to expand that pattern in space.
+08:09 This is exactly how Escher wnet about creating all his wonderfull patterns.
+08:14 In this case, we were using, a rectangular bravais lattica to create this pattern.
+08:19 But the same thing can be done with square lattices, and also hexagonal lattices.
+08:26 In this lecture, we have learnt about the principles of plane symmetry that Escher applied to create his drawings.
+08:33 Of course if you go to the internet, you can find many examples and many very comprehensive descriptions of the principles that he used.
+08:42 You can even try to create Escher style drawings yourself.
+08:47 More formally, what we learnt in this lecture, was the difference between primitive and centered tiling.
+08:56 We saw, that in order to create a centered tile, we need to apply a glide plane, in addition to simple mirrors.
+09:02 As we progress through this course, the idea of primitive and centered tiles, in two dimensions, and finally primitive and centered unit cells in three dimensions will become clearer to you.
+
+ 
+ 

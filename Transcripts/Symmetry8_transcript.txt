@@ -1,0 +1,89 @@
+00:22 No it's time to bring together everything we've learnt about plane symmetry,
+00:28 and collect this in a very formal way.
+00:31 In this lecture, you will gain practice in reading the Plane Group Tables.
+00:36 You will also learn again, how to specify the general and special positions.
+00:43 And for this exercise, we will look at both hexagonal and rectangular lattices.
+00:49 We will also look at the positions of the fractional coordinates, or the positions of the operators that are generated through symmetry operations.
+00:59 We come again to the primitive and centered cells,
+01:03 but now we look at the way these are represented in the Plane Group Tables,
+01:08 and how the centring condition is specified.
+01:12 And finally, we collate, and examine the 17 plane group symbols.
+01:17 The are only 17 of these, and these are sometimes known as the wallpaper symbols.
+01:24 Now, let's see how this information is represented in the plane group tables of the International Tables of Crystallography.
+01:31 In the top left hand part of the information, you can see, the Lattice type, it's a Rectangular lattice.
+01:39 On the right hand side, you have the plane group symbol, p2mm
+01:45 The lower case p indicating a primitive cell,
+01:49 The 2 indicating the operation of the diad,
+01:52 and the 2 mirror planes, vertical and horizontal.
+01:56 This part of the symbol, is reflecting, the point group symmetry of this particular plane group.
+02:04 We can also look at the 2 diagrams,
+02:07 The diagram on the left, is the arrangement of symmetry elements in the unit cell.
+02:13 The general position of the diagram, shows the position of each of the objects in the unit cell.
+02:20 The origin of the unit cell, is also specified.
+02:24 Upto this point, we've always said that the unit cell can placed anywhere on the top of the pattern,
+02:30 provided it is the same size and shape.
+02:33 But now we are considering these symmetries more mathematically,
+02:38 the origin is specified,
+02:40 and in general the origin will always be place where there is some form of rotation.
+02:46 So in this case, the origin is at the rotation point,
+02:50 which has the point symmetry: 2mm.
+02:53 We can also specify, where the asymmetric unit lies.
+02:57 Here, what's shown is that the asymmetric unit has to lie in the 0 to half in x, and 0 to a half in y.
+03:06 Now, let's return to the question of centring.
+03:10 For this, we'll examine, 2 of the plane groups.
+03:14 Number 3, with symbol pm and number 5, with symbol cm.
+03:20 You'll notice that if we start to look at the pm plane group, there are 2 general positions inside the unit cell,
+03:28  and they are chiral positions, and they occur at the coordinates (x,y) and (-x,y)
+03:37 And when you count across, you see that the multiplicity must be 2.
+03:42 However, if you look at the other example, plane group cm,
+03:48 You can see, that if you count up the number of objects inside the unit cell, it is 4
+03:54 But then, if you look at the coordinates of the general position, you'll see only 2 of them, position (x,y) and position (-x,y).
+04:03 What's happened to the other 2 coordinates?
+04:07 In this case, the information is contained, at the top of the coordinate set,
+04:12 where it shows yo the centring condition.
+04:16 what that is telling you, is that at every position (0,0), the origin, there is an identical position at the centre at (1/2,1/2).
+04:26 So the total number of positions is 4, and it would be position 1(x,y) together with position 3 (x+1/2,y+1/2).
+04:36 Position 2 would be  (-x,y) and the centric condition produces (-x+y,y+1/2).
+04:48 To get this centring condition, we've used a glide line, and remember the glide is combination of mirroring and translation.
+04:56 So if we begin, with the general position in the top left hand corner,
+05:00 we reflect across the glide line, translate by half a unit cell.
+05:06 We then carry out that operation again, to return where we began.
+05:11 We should now come back to the question of multiplicity, and object coordinates.
+05:19 Upto now, we'd only looked at rectangular and square lattices.
+05:23 Let's now take an example from a hexagonal lattice.
+05:27 In this case, we will use the plane group, p3.
+05:31 So a primitive cell, with 3 fold rotation.
+05:36 The 3 fold rotation point, will be at the origin.
+05:40 and we can show here, 4 of the rotations, with one of the 3 fold rotation points illustrated through blue triangle.
+05:48 If we have a general position(x,y), we generate 2 additional positions.
+05:54 In other words, the multiplicity of the general position will be 3.
+06:00 Once we have done that, do we find, any other 3 fold rotation points?
+06:06 The answer is yes.
+06:08 We can also find a rotation point as shown here, with the 3 objects lying on the blue circle.
+06:14 There is also, an additional 3 fold rotation point as shown with the objects lying on the orange circle.
+06:23 So in that hexagonal lattice, through the imposition of a single 3 fold rotation point,
+06:30 we actually generate an additional 2 rotation points inside the unit cell.
+06:36 We can also generate special positions.
+06:41 To do this, we have to place the object on top of the symmetry positions,
+06:45 the 3 fold rotation point.
+06:47 If we put a red circle, on top of the 3fold rotation, at the origin of the unit cell, we generate no additional objects.
+06:55 In other words, the multiplicity is 1.
+06:58 We can do the same thing, by placing a green and a blue circle on the other 3 fold rotation points.
+07:05 All of these maintain, the multiplicity of 1.
+07:10 The asymmetric unit, is shown, in outline.
+07:15 As you can see, again, the asymmetric unit contains only 1 general position.
+07:19 from which the other 2 positions, can be generated.
+07:24 Now let's look at how the p3 symmetry is represented in the plane group tables.
+07:29 There are, to begin, the 2 diagrams.
+07:31 The symmetry element diagram, and the general position diagram.
+07:36 The symmetry elements are all, 3 fold rotation points.
+07:40 In the general position diagram, we can see, that there are 3 objects and the general position diagram.
+The symmetry elements are all threefold rotation points.  In the general position diagram we can see that there are three objects.  Therefore the multiplicity is three.  The position of those objects or their coordinates is also given.  Because these objects do not lie on top of any symmetry option, the site symmetry is one.  If however we place an object on any of the
+threefold rotation points, we create a site we multiplicity of only one and the positions and fractional coordinates as shown.  You’ll notice that the location of the special site positions in this case is completely fixed.  They have to be at 0, 0; a third or two thirds; two thirds or one third.  We can now assign the Wyckoff letters.  In terms of site symmetry we are showing what the rotation points are.
+The rotation is always coming out of the page and it’s always the first point in terms of the site symmetry description.  As there are no mirror lines or glide lines we leave the other two positions indicated by the full stops blank.  So, now let’s consolidate everything that we need to know about the 17 plane groups.  All of them must conform to one of the five Bravais lattices.  They can be
+oblique lattices, rectangular, square, or hexagonal lattices and in the case of the rectangular lattice it may be primitive or centred.  The point group for each of these lattices is also specified.  We can also describe the 17 plane groups in terms of the so-called full symbol or short symbol.  The short symbol is what we have been using so far.  The first part of the short symbol describes whether the cell is
+primitive or centred and is always represented by a lowercase p or c.  In addition the symbol indicates the point group symmetry.  Where there is a glide plane which incorporates the mirror the m is sometimes replaced by a g.  What have we learnt in this lecture?  We now know that the disposition of the symmetry operators inside the unit cell determine the size of the asymmetric unit.  Recall that
+the asymmetric unit contains only one object and it is the operators which create the rest of the pattern on that single object.  We also know that special positions appear when the object lies directly on top of the symmetry operator.  In this process it changes multiplicity.  A general position lies away from any symmetry operators and consequently has the highest multiplicity, but this
+special position is less abundant.  They are less abundant because some of the operators have no effect.  Consequently they have lower multiplicity.  We now understand the difference between centred and primitive unit cells.  In a primitive cell we have objects dispersed around the origin, but there is no similar dispersion around the centre of the unit cell.  In a centred cell the exact opposite occurs.  The same disposition of objects occurs both at the
+centre and the origin and finally we must remember that there are only 17 plane groups.  These are also known as the wallpaper groups and with these 17 plane groups it’s possible to create all of the patterns which are known in plane symmetry.
+

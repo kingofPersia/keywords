@@ -1,0 +1,193 @@
+We now have all of the tools that we need to examine crystal structures, so now  we want to bring all of that together so you can understand why crystal structures behave as they do
+
+
+In this lecture we will consider the way in which the  fractional coordinates of a real structure correlate with general position diagram from the International Table of Crystallography
+
+
+ We also need to discover how ew cab plot bonds in using the program ATOMS
+
+
+To this part we only plotted the atoms themselves but now we introduce bonds and show the way in which atoms are connected together
+
+We can also derive the Platonic solids, we can examine the way  in which the bonding takes place, recognise the format of the Platonic solids in this case it will only tetrahedra and octahedra and then plot these separately
+
+
+First we define and recognise the nearest neighbour atoms, in other words which atoms are next to each other
+
+This is known as atomic coordination
+
+(With a valid) positions against the general positions diagram, in other words do the atoms lie where we would expect, keeping the symmetry
+
+We can plot the bonds between the nearest neighbours atoms after that, and finally we define and plot the atomic polyhedra
+
+
+For this exercise we will stay with cords which we’ve already started to work with
+
+Cords belong to the space crip p3_1 2 1 the space crip number is 151, there are 3 silicons and 2 oxygens per unit cell
+
+
+In the diagram shown, we are looking down the unique access of cords where the angle between a and b is 120 degrees
+
+We can also introduce the labeling for these atoms
+
+To confirm that the crystal structure of cords conforms to p3_1 2 1 we have to insert the heights of the atoms when looking along z, and the heights are now shown on this drawing
+
+If you look at the general position diagram you will see that there are three fold screw axis
+
+In a three fold screw axis we begin rotating through -120 degrees and lifting by 1/3 along the translational direction, we then repeat that operation
+
+
+
+-120 degrees rotation, lifting by a 1/3 again to a total height of 2/3
+
+Finally we rotate a 120 degrees negatively again, lift by a final third and we get back to where we started
+
+So that is what we should observe in these heights of the silicon and the oxygen in cords
+
+
+If we consider a screw axis at the origin and look, to begin with, at the silicon positions you will see that this is true
+
+I have now shown a circle on which the silicon atoms lie, and you can see their heights are 0, 1/3 and 2/3
+
+There are two pairs of oxygen sets which show the same condition
+
+The first one is shown here lying on the orange circle
+
+The same thing is true for a second set of oxygens indicated by the blue circle
+
+Of course the same thing will appear around all of the origins of this unit cell but you will also see from the symmetry diagram that there are two additional 3 fold axis within the unit cell
+
+These are now shown on top of the cords drawing, and these reacted on the three oxygens illustrated through the pink circles
+
+So as you would expect all of the atoms in cords must conform to the symmetry defined through the space P3_1 2 1
+
+
+At this point let’s return to the ATOM program so we that can learn how to find out what the bond links are and subsequently how to define the polyhedra
+
+This is where we left the drawing of cords in the earlier lecture
+
+How do we show where the silicon-oxygen bonds are
+
+To do this we come again to input1, we go to atoms, and we have the silicon highlighted here at the top (We can either highlight the silicon or the oxygen, but we are interested in the bonding of the oxygen to silicon, so silicon will be at the centre of any bonding coordinations for you), we click on coordination and here we can set distances from the central atom which is in this case silicon to the ligand
+
+Typically distances between atoms are around about 1
+
+5 to 3 angstroms
+
+In the case of silicon and oxygen we know that the distance should be less than 2 angstroms, so I will set the limit to be 2
+
+We only want the distance for the selected atom which is silicon, we say Ok, and now you can see a list of four oxygen atoms surrounding the silicon, The distance from the silicon to the oxygen is 1
+
+62 angstroms
+
+You will notice that the distances are all almost identical and this is because we said that the silicon-oxygen bond is a hard bond, It doesn’t extend by very much nor it does compress by very much, so the silicon-oxygen bond is always very close to 1
+
+62
+
+
+How do we use that information
+
+You will notice that the silicon has a type number given to it
+
+Silicon is type 14, Oxygen is type 8
+
+This refers to their atomic numbers, so now when we want to draw the bonds we have to remember three things, we need to remember the type number for the silicon which is at the centre of the bonding sphere , we need to remember that the ligand (Oxygen) is type 8 and the distance is around about 1
+
+62 to 1
+
+63 angstroms
+
+
+To create the bonds we come to input1, we go to bonds, we wish to add a bond, It’s between silicon type 14 and oxygen type 8 and we know that the bond length is around about 1
+
+63 angstroms, so we say a maximum of 2 which will capture that bond distance, here we define the color of the bond I’ll say it need to be gray , we say ok
+
+
+
+ok, and now you can see all of the bonds appearing in the structure
+
+If we count we can see the in red silicon and   it has 1,2,3,4 oxygen surrounding it
+
+
+Now let’s come to the final step which is define the SiO_4 tetrahedra, how do we do this
+
+
+Again we go to input1, and now we want to define polyhedra, we wish to add a polyhedron and it shows the central atom is 14, the silicon, and the ligand which is oxygen is 8, we would like to give the Polyhedron some color, we say ok
+
+
+
+ok
+
+And now you can see the polyhedra that appear in cords
+
+The polyhedra are drawn with simple cones showing the connectivity at the vertices, but often the polyhedra are shown with a small circle or a small sphere at the vertices to better give an indication of the atom positions
+
+So now we have defined the structure of cords in terms of its polyhedral arrangements, we can rotate the structure around so that you can see the relationship between those tetrahedra and as you can see they are all joint at the corners and so we say that ever polyhedra is connected to its neighbour
+
+We can define specific orientations for these plots, we do this by going to rotation, we want to align a vector, we would like to look down the OO1 direction in other words to see the hexagonal angle of a 120 degrees, we have to say that we need to use a default alignment of the face  then we say ok, and we are back to that position
+
+We can also create nice little movies if we wish, so we can come to rotation , we can talk about continuous rotation, maybe rotating by point 2 of a degree
+
+The image can also be enhanced by introducing gradations in the atoms or the bonds or the polyhedra
+
+To do that we have to turn off the rotation, we come to input2 which is shading, we want to shade atoms, bonds and polyhedra, we take the max number of shading zones, we start the rotation again, and now we’ve created a very nice representation of the structure
+
+So let’s revise and consolidate what we’ve learned from the ATOM program
+
+What we saw was that each silicon is surrounded by 4 oxygens and on this slide I provided a summery of information
+
+The distances between the silicon and the oxygen are defined by angstrom unit which is 10 to the minus ten of a meter, you will also notice that the bond distances are not exactly equal, the silicon-oxygen bond is always around about 1
+
+6 angstroms but in this case for cords the true distances are 1
+
+606 and 1
+
+612 so they are not exactly the same
+
+We can also label which bonds correspond to the longer bonds and which correspond to the shorter bonds
+
+
+Because we have 4 oxygens bonded to each silicon atom, we’ve created a tetrahedra, and as you can see we can define these tetrahedra either through old tetrahedra as shown on the left or transparent tetrahedra with a silicon in the centre
+
+
+So you are maybe asking is silicon always coordinated to four oxygens, the answer is almost always but not in every case
+
+
+There is a form of silica in which oxygen is in 6 coordinations to the silicon, but let’s have a look at how the structure differs from standard cords
+
+Stishovite is a tetragonal structure and in the drawing shown here we are looking down the unique C axis, when we use ATOMS to find the bonds between silicon and oxygen, we find there is 6 nearest neighbours: 2 are relatively long 1
+
+780 angstroms and the other 4 are a little shorter 1
+
+741 angstroms
+
+The shape of these bonds defines an octahedron
+
+
+If we look at the actual atom positions in this structure and the space crip is now given P4_2 /m n m which is space crip 136, in this case there are two formula units per unit cell, the symmetry diagram also contains more symmetry elements and these are numerated on the slide: there are mirror planes, there are also plane glides and also double glides, there is also a 4_2 screw axis with a centre of inversion and a 2 fold rotation axis with a centre of inversion
+
+
+The symmetry diagram is more complicated but nonetheless we can take the real structure for Stishovite and see how these elements are acting
+
+We begin by plotting the relationship of the atoms to their heights when looking along C, you can see that all atoms occur at height 0 or height 1/2
+
+If we just take small components of the structure we can see how the symmetry elements are operating, for example there is a glide line witch extends across the corner of the unit cell, and I am now () this directly on top of this Stishovite structure, you can see hoe oxygen atoms at height 1/2 reflect and translate
+
+
+
+reflect and translate along the glide line
+
+We can also show what’s happening with the 2 fold inversion axis, you will notice that in this case it’s centred on the silicon in projection and you can see that you can rotate through angles of 180 degrees and leave that part of the structure unchanged, you can also see that there is inversion for the atoms which are at 0 and 1/2
+
+And finally we can look at the 4 fold screw axis with inversion as shown here
+
+
+Having established that the coordination of the silicon to oxygen 6, we can define the octahedra that defines the silicon
+
+
+so what are the main messages of this lecture: the first is that atoms commonly arrange themselves in ways that conforms to the Platonic Solids, in this case we emphasise tetrahedra and octahedra
+
+We also saw that the arrangement of the atoms themselves and of course the Platonic Solids that arise from this arrangement most conform to the symmetry of the space crip
+
+We also learned that the chemical formula of a compound does not necessarily conform to the number of atoms inside the unit cell, in fact you may frequently have multiples of the chemical formula within the unit cell, in the case of cords the multiple was 3, in case of Stishovite the multiple was 2
+

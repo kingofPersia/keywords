@@ -1,0 +1,207 @@
+At this point, then, we have to learn something more about the description of planes in crystal structures
+
+To do this we need to learn about the Miller index system
+
+The Miller index system not only gives us a way to label the external facets of crystals but also to understand the distances between atomic planes in crystals, which provides a basis of interpreting electron and X-ray diffraction patterns
+
+So, at the end of this lecture you should be
+able to determine the Miller indices for different crystal systems and long ago Nicolas Steno found out that the angles between the planes or the external facets of crystals were always the same
+
+This is known as the law of consistency [sic] of interfacial angles and states that the angles between perpendiculars to a pair of corresponding faces will always be the same
+
+For example, in the
+diagram below you can see a quartz crystal
+
+On the surfaces or facets of that crystal you can see three numbers
+
+These are the Miller indices and these allow us to recognise what particular facets are well developed inside a crystal structure and also how this relates to the arrangement of the atoms
+
+In other words, which atomic planes are growing preferentially
+
+At this point these may
+not mean very much to you, but by the end of this lecture you will understand what that type of labelling on the external facets of crystals really means
+
+Let’s now look at how we would formally define planes and directions in a unit cell
+
+We begin by considering the cubic unit cell
+
+This is a case where A and B and C are all equal and also where the angles are all 90 degrees
+
+We can define
+planes mathematically in any direction through the unit cell
+
+We can begin by looking at a plane, which is the 001 plane, which would be at the base of the unit cell
+
+This 001 plane is also replicated at the top of the unit cell
+
+The two planes are entirely the same
+
+The direction, which is at right angles to the 001 plane, is a
+001 direction
+
+You’ll notice how we use different terminology
+
+The single plane is shown in a round bracket
+
+The direction at right angles to the 001 plane is shown in a square bracket
+
+If we then repeat the unit cell vertically we can create more 001 planes
+
+If we look at the spacings between the 001 planes, they will always be
+the same and we refer to this spacing as a D spacing
+
+In this case it’s represented as D001
+
+If we take all of the directions and all of the planes, we show them in a slightly different way
+
+All of the 001 planes can be collected together as a family and these are represented within braces
+
+The directions 001 can be placed in
+triangular brackets
+
+In this way we understand there will always be a family of planes and they will be plane-parallel with respect to each other
+
+When we label the 001 plane in this way, what we have actually found are known as Miller indices
+
+The Miller indices are the reciprocals of the intersects along the X, the Y, and the Z direction
+
+If we look at the 001 plane, X does not intersect the axis
+at any point
+
+It’s parallel to it
+
+So, we say that the intersection is at infinity
+
+The same is true for Y, but for Z we say the intersection is at one
+
+When we take the inverse of infinity, infinity-one, we find the Miller index, 001
+
+In the case of 001 planes this is really a trivial exercise, but as we’ll see shortly, if we look at planes which are intersecting the unit cell in different directions, this is a little bit
+less straightforward
+
+In addition to the 001 plane we can do the same thing for the 010 plane
+
+The construction is exactly the same
+
+There’ll be a direction, 010, which is at right angles to the 010 plane and the distance D010 will all be equivalent
+
+The same strategy for determining the Miller indices, taking the inverses of the intersections with the axes, apply
+
+Finally we can do the same
+construction when we examine the 100 planes
+
+So, to summarise, in cubic families, A and B and C are all equal
+
+Therefore the D spacings must be also equal
+
+Let’s recap where we were
+
+In the cubic system, A and B and C are the same
+
+Therefore the D spacings or the cell edges must also be equal
+
+Consequently, when
+we look at a 100 plane, there will be six equivalent planes depending which faces of the cube we refer to
+
+In addition there must be six vectors at right angles to these planes
+
+Consequently the multiplicity of the 100 planes will be equal to six, but in the case of the orthorhombic system the multiplicity cannot be the
+same
+
+Recall that in an orthorhombic lattice A and B and C are all different although the angles between the different directions remains 90 degrees
+
+In this example we’ve chosen A to be equal to five arbitrary units, B equal to eight, and C equal to 12
+
+Consequently the D spacing 100 will be equal to five, but it will be distinct from D010 and also D001
+
+Therefore, in every case of
+looking at the opposing faces of an orthorhombic unit cell, the multiplicity for each pair of planes must be equal to two
+
+It’s not necessary, though, to always just take the top or bottom faces of the unit cell or one of the sides
+
+We can also slice the unit cell in finer divisions
+
+So, again, let’s start with a cubic unit cell
+
+We show
+what we’re already familiar with; the 001 planes
+
+Now let’s cut the unit cell in a different way
+
+Here what we’ll do is place a plane halfway along the Z direction of the unit cell
+
+This is known as a 002 plane
+
+It’s parallel to the 001 planes, but its D spacing will be half as long because we’ve cut the edge of the unit cell in half
+
+We
+can cut the unit cell as finely as we like
+
+Now we’re cutting at one third along Z, so in this instance we’re creating 003 planes
+
+You’ll notice that the 001, 002, and 003 planes are also parallel with each other
+
+Now let’s look at some more complicated planes that can be drawn in the cubic cell
+
+Here we see an example of a plane drawn across the diagonal
+
+How do we find the Miller indices
+
+First we
+define the intercepts; in this case, X=1 and Y=1
+
+We take the inverse of those and we find that the Miller indices for that plane have to be 110
+
+The vector or direction of right angles to that plane would be also 110, shown in the square brackets
+
+We can also take the other diagonal and differentiate it
+
+In this case the intercepts are X=1 and Y=-1 to yield 1, -1, 0 for the Miller indices and the plane
+at right angles as being 1, -1, 0
+
+Actually there’s an infinite number of planes we can draw in any unit cell
+
+Here we have one where the intercepts are X=1, Y=1, and Z=1
+
+The inverse of those is quite trivial and we see that the Miller indices for that plane would be 111
+
+The vector at right angles to that plane would also be 111, shown in square brackets
+
+Finally let’s take the case of a
+more complicated plane where the intersects are X=
+
+75, Y=
+
+5, and Z=
+
+5
+
+We follow the same procedure
+
+We take the reciprocals of these, but in this case we need to multiply up to create integers
+
+So, when we multiply 4/3 through by three we end up with 466 as a Miller index
+
+This Miller index is equivalent to 233, which can be extracted by dividing by two
+
+I think it is clear that the planes 466
+and 233 would be parallel to each other
+
+So, let’s revise what we’ve learnt in this lecture
+
+Miller indices HKL are used to define planes that are parallel to each other
+
+The vectors that are related to these planes are always at right angle and given the symbol UVW
+
+These are shown in square brackets
+
+The distance between these
+Parallel planes is known as the D spacing and this is defined by the size of the unit cell
+
+The multiplicity of the planes is also defined by the unit cell
+
+So, as we saw in the cubic system, the planes have higher multiplicities – in other words, equal D spacings – as compared to, say, an orthorhombic system where A and B and C are different and therefore the multiplicities must be lower
+
+Finally,
+we’ve seen that real crystals have facets and those facets can also be labelled according to their Miller indices
+

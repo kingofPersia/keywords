@@ -1,0 +1,117 @@
+Let’s begin by looking at symmetry in a more formal way.
+And in particular we need to introduce you the very basic concepts that will be used throughout this course.
+Perhaps the most basic concept of all is what does it mean for an object to be symmetrical.
+Equally importantly you need to understand what does it mean to be asymmetrical.
+If there is an asymmetrical object what are the clues that tell you it is lacking symmetry.
+
+As we begin this course we need to also discuss point symmetry, plane symmetry and three-dimensional symmetry.
+
+In an early part of the course, what we will focus on is point and plane symmetry and the mathematical basis for these.
+
+If we think about symmetry in common objects, we know that we can rapidly classify an object as having a symmetrical element or lacking a symmetrical element.
+What we are really doing in these cases.
+If I take a common definition of symmetry as found in the Collins dictionary is defined as harmony of form based on proportionate arrangement of part. It’s a very nice definition.
+
+Equally, asymmetry is the lack or the absence of symmetry.
+So if we look at these collection of common objects.
+Immediately our mind is considering and categorizing these objects as having symmetrical component or an absence of symmetry.
+If we take the Buddha, I think all of us would say that would be a symmetric object.
+The wine glass is also symmetric.
+However, the coffee mug looks asymmetric.
+The flower we will classify as symmetric.
+The clock we will classify as asymmetric.
+The hand phone asymmetric.
+The spoon symmetric, fork symmetric.
+Knife asymmetric. Shoe asymmetric.
+And then we came to the chairs, and if we view the chair in one direction it appears symmetric
+if we view it in other direction, it appears asymmetric.
+So what are we actually considering here.
+Why we were able to make that classification
+What we are really looking at in a formal sense, is the presence or the absence of mirror lines.
+And in the case of all symmetric objects there is a vertical mirror line.
+This is absent in all of the other objects
+
+Clearly if we consider the chair, it depends on the direction you look at the object.
+If we look front on of the chair, it has mirror line.
+If we look side on, the mirror line is absent.
+So the final message from this slide is the observing symmetry depends on how you look at something.
+Now let’s consider the symmetry in the common object and What could be more common than your standard coffee cup which you probably use every day. But we can learn a lot about the way in which we analyse symmetry by viewing the coffee cup in different directions.
+
+We can view it in three principle directions
+We can view it from the top, and when we view from the top, we can see a horizontal mirror.
+If we turn it to 90 degrees, so it is in this orientation, there is no symmetry, because there is no mirror. If we turn it through 90 degrees, then again we find a mirror.
+So whether we are looking at common object or we are looking at xxxxx
+Or we are looking at technologies devices, the presence or the absence of symmetry depends on how you look at that object.
+
+Let’s consider alloy wheels in cars.
+And this is where we begin to introduce idea of rotation points.
+Let’s take the upper most alloy wheel. Again we know intuitively that there is symmetry associate with this wheel. We can find mirror lines and there are three mirror lines which pass through the heart of the wheel.
+
+But in addition, we can find mirror line which pass through the ……
+So we have two types of mirrors in this particular alloy wheel.
+Those indicated by the red lines, those indicated by the orange.
+There are total of six and there are two unique mirrors, three of each type.
+
+If we look at the next xxx. in the bottom left. Again we can find mirrors. In this case there are only three mirrors. And these mirrors are all identical. Finally, we look at the alloy wheel on the bottom right, are there any mirror at all? Actually you can’t find any, it doesn’t matter how you look at this wheel, there are no mirrors. But equally you know that there is some symmetry on that wheel, and what is it?
+It turns out to be a three-fold rotation. If we rotate the wheel in segment of 120 degrees, it reminds un…    aspect, which is basically the definition of symmetry.
+So we have a three-fold rotation or a 120 degrees’ rotation.
+The symbol for the rotation point is a triangle.
+And this is now shown in the over line.
+If we now revisit the other wheel, we can also see that in the bottom left wheel again there is three-fold rotation and in the top wheel there is six-fold rotation.
+So what you can observe by looking at these wheels is that there is often a close relationship between the presence of mirror lines and the presence of rotation points.
+
+In a formal sense the way we will define the symmetry is through a two or a three symbol or descriptor. So if we look again at the top most alloy wheel, the point symmetry would be listed as 6mm. That’s because there are six-fold rotation and two unique mirrors.
+If we look at the bottom left, the point symmetry is 3m. That’s because there are three-fold rotations and only one type of mirror. One unique mirror so the descriptor is 3m.
+If we look at the final alloy wheel, there are no mirrors, so its point symmetry is 3.
+You’ll notice that in way that the xxxx is used is that the first symbol always represents the rotation and the following symbol represents the mirrors.
+There is one final idea that we now have to introduce, and this is now not point symmetry but plane symmetry.
+If we think about roosting birds and shore birds, their behaviour of course is quite different.
+Roosting bird has to jump from tweak to tweak. A shore bird has to wade along the beach.
+A roosting bird tends to keep its feet together, and so if we look at the tracks of the roosting bird, you can see that you have a path of their feet moving along in unisons.
+Clearly there is a symmetry in relationship between those footprints.
+And the Symmetry is a mirror; the paths of the feet are related by a mirror.
+We can indicate the mirror relationship by this continuous solid line. So the operation is a mirror. And the symmetry operator is a mirror line.
+If we look at the waiting birds, which is stride out, then you have an arrangement of the feet whether is a relationship which involves translation.
+
+But how is that come about?
+To begin, we apply a mirror, so if we start at the top left hand side, you can see that there is mirroring relationship and then a short translation of the foot onto the next footprint.
+To get to the next footprint, we apply a mirror again. We reflect the footprint and translate.
+So this repetition of mirror plus translation, mirror plus translation gives you arrangement of feet, that is observed by shore birds walking on the beach.
+
+
+This is actually a compound operation. Involving both the mirror and the translation. And it is known as a glide line. So this is our first example of the compound symmetry operator. We will meet others as we progress through this course.
+
+The way in which a glide line is represented is with a dotted line as showing here.
+So to summarize this part, we’ve looked at the mirror and we’ve looked at the glide line when used in plane symmetry.
+The standard representation of those operations are solid line and dotted line.
+
+We can also begin by looking at the tiling or what are the minimal repeatable units that we find in these patterns.
+Outline for the mirror you can see what would be the size and shape of that minimal repeatable unit.  Now that size and shape can be placed anywhere on top of the pattern.
+It could equally be well placed in the position like this.
+It actually doesn’t matter.
+Formally we said, the origin of that shape can be placed everywhere.
+These are then so called then repeating units.
+
+We can do the same thing with the glide. Here the repeating unit is somewhat larger. And again we can choose any origin for that repeating unit as long as the same size and shape is maintained.
+
+
+
+Now there is one final idea that we have to introduce.
+And that is about the asymmetric unit. The asymmetric unit is the smallest component of the pattern upon which the operators act to give you the whole pattern. And in this case of the bird walking evidently the smallest component would be the footprint.
+And If we apply the operation repeatedly upon a single footprint using the mirror for the glide, we will generate the whole pattern.
+
+So to summarize what we have now covered.
+We know that symmetrical objects contain matching parts within the whole. And these can all usually be recognised quite easy.
+
+The commonly recognized symmetry operations are rotation and reflection. And these are the only two symmetry operation which are found in point symmetry.
+The reflection is what is taking place, is the operator.
+And it describes as a mirror line.
+The rotation is the operation, which is taking place, and it describes as the operator.
+
+So in plane symmetry you have a compound operation called a glide which is introduced to a combination of the reflection and translation.
+You won’t find a glide in point symmetry, it only starts to appear in plane symmetry or two-dimensional symmetry and later you’ll see it also appears in various forms in three-dimensional symmetry.
+
+
+
+
+

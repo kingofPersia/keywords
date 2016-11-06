@@ -1,0 +1,108 @@
+00:23 In the previous lecture, we had some fun working with cuttlefish.
+00:27 We saw the way, Escher was able to use mirror lines and glide lines in order to create his beautiful tessalations.
+00:36 Although we dealt with symmetry elements, we haven't really attacked them in a very formal way.
+00:42 And that is what this lecture is about.
+00:47 Escher always used Bravias lattices to create his patterns, and there are five of these.
+00:54 In this lecture, we are going to learn about the insertion of mirror and rectangular glide lines, on top of rectangular Bravias lattices.
+01:03 We will also see, how we generate, symmetry related positions.
+01:08 And this will be a precursor to what we need in part 3 of this course, when we start to talk about atomic structures.
+01:16 We will also begin, to formally define the plane symmetry in terms of symmetry elements which are present.
+01:25 We will also see, in great detail the difference between what Escher was able to create and the underlying Bravais lattices.
+01:34 Plane symmetry translation, depends on the five Bravais lattices.
+01:39 The simplest lattice, of course will be a square lattice.
+01:43 In which you have two vectors at right angles to each other, and both vectors are of equal lengths.
+01:50 The square lattice is defined by two directions, a and b, as we have already learnt in part 1.
+01:59 From that, we can also derive rectangular lattices.
+02:03 And rectangular lattices come in two types.
+02:06 First there is a lattice in which the directions of a and b are different, but the angle between them is a right angle.
+02:14 This creates what is known as a primitive rectangular lattice.
+02:19 But we can also create a rectangular lattice in which the two vectora re different, a and b,the angle between them is not 90, but in the end we can define a new rectangular lattice which is centered.
+02:32 In other words, the lattice point at the centre is equivalent to the lattice point at the origin.
+02:39 We can also create hexagonal lattices.
+02:42 Here, the two vectors, a and b are equal, but the angle between them is 120 degrees.
+02:51 And finally, we come to oblique lattices.
+02:54 In this case, the vectors are non equal, and the angle between these two vectors is not equal to 90 degrees or 120 degrees.
+03:05 So by using these 5 Bravais lattices, Escher was able to create all of the drawings.
+03:11 Let's take a rectangular lattice and consider it in detail.
+03:19 If you look at the drawing in the top left hand corner, you will see that I have created four cells or four tiles.
+03:29 These four tiles, are divided into smaller rectangles to we can easily see the way in which we are manipulating the objects inside.
+03:38 You will also notice, that I have defined, the repeating lattices, a and b and also the direction x and y.
+03:47 If we start with any object, (x,y) and then we insert a mirror line, we will create a chiral object, as we have already learnt.
+03:57 And the chiral object will be at position (-x,y)
+04:03 Having defined these two objects, (x,y) and (-x,y), we are then able to fill these unit cells.
+04:12 When we do this, we discover, that within any unit cell, there are two objects.
+04:18 We would say the multiplicity, is two.
+04:24 What other symmetry operators do we create, in this action.
+04:29 Well we started with a mirror line, at the top and the bottom of the unit cell.
+04:33 But we can also create a mirror line between the chiral objects as shown now.
+04:38 So through the introduction of the first mirror line, we actually create, a second mirror.
+04:46 We can also define, the asymmetric unit.
+04:50 In other words, the minimum size required to define all the objects inside the unit cell when operated on by the mirror.
+04:59 The asymmetric unit is now shown shaded in blue
+05:03 And you can see its extent is between not and a half in x, and not and one in y.
+05:09 Remember that the asymmetric unit, will only ever contain one of the objects.
+05:18 So how doed this apply, to the cuttlefish pattern.
+05:22 The first thing to remember is that the cuttlefish itself contains a mirror line.
+05:27 Therefore, you can define the two halves of the cuttlefish as pair of chiral objects,
+05:34 superimposed on top of the cuttlefish, I've shown in the formal representation.
+05:40 We now create four unit cells, as we used in the previous slide.
+05:44 So we have an arrangement of cuttlefish, all related by the mirror,
+05:49 and we can create the repeating units, a and b and show the four unit cells.
+05:56 One of the unit cells, is shaded in yellow.
+06:01 We can now begin to insert, the symmetry operators, and also the position elements.
+06:09 Once, we've created one pair of positional elements, of course we can repeat that, across all the unitcells.
+06:18 We can now also see, the additional mirror that has been created through the introduction of the first mirror.
+06:25 So now we are approaching, the formal definition of the Escher style drawing.
+06:31 We can also show, the asymmetric unit, which is shaded in blue.
+06:38 Formally, the position we need to adopt, is now shown, we need to rotate the pattern by 90 degrees.
+06:45 And if we strip away the cuttlefish, then we are left with a diagram which looks identical to the diagram on the previous slide.
+06:56 If we consider this arrangement a little more, then we can start to define what is a plane symmetry.
+07:04 You'll notice that the upper right diagram, just shows a pair of mirror lines, it also shows the size of the asymmetric unit.
+07:13 This is known, as the symmetry diagram.
+07:17 Underneath that, we show the general position diagram.
+07:21 Typically, this is divided into quadrants, so we take one unit cell, and dicide it into four.
+07:28 Overlaying that, are the sets of chiral objects.
+07:33 Finally, we consider, what will be the formal representation of this symmetry.
+07:38 Obviously, we have a mirror line,
+07:42 and also you will notice that the pair of chiral objects at the origin are not repeated in the centre.
+07:48 So this is what's termed, a primitive unit cell.
+07:53 Therefore, the primitive cell can be defined through the symbol : pm
+08:00 Let's take a second example.
+08:02 In this case, we are going to combine, mirrors and glide lines.
+08:08 We again begin, with the general position (x,y).
+08:13 We apply the mirror, and so we have the chiral object at (-x,y).
+08:19 Through the actions of the glide lines, we create additional positions as shown.
+08:26 We can then fill the unit cell, with all of these objects.
+08:32 In this case, how many objects do we create inside the unit cell?
+08:37 It turns out to be four.
+08:41 What were the additional symmetry operators created?
+08:44 Well we find, an additional mirror line, and we also find, an additional glide line.
+08:50 So again we see, the action of one symmetry operator, creating additional symmetry operations.
+09:00 For this particular case, the asymmetric unit extends from 0 to a half in x and also, from a 0 to a half in y.
+09:09 You'll notice that the pair of chiral objects at the origin, is repeated at the centre.
+09:15 There are mirror lines present, so in this case the symbol would be : cm, indicating a centered cell and mirror actions.
+09:27 The cm plane group, is what we used in the second illustration of the Escher drawing.
+09:32 Again we have an arrangement of the cuttlefish and we selected four unit cells.
+09:38 The directions, a and b, x and y, can be defined.
+09:44 We can overlay, all of the symmetry elements, and also, all of the chiral positions.
+09:50 And now we are approaching, the formal representation of this pattern.
+09:56 Again, to express it in the normal way, we should rotate it through 90 degrees.
+10:04 So now, we have the cell in the correct orientation,
+10:08 and if we remove the cuttlefish, we end up with the general position diagram equivalent to the previous slide.
+10:15 Finally, we come to the arrangement, which is very like the Escher drawing.
+10:20 Where we collapse the cuttlefish and introduce an inverted blue cuttlefish.
+10:26 Although it looks complicated, this again conforms to pm symmetry.
+10:32 So let's conclude, by looking at how the halves of the cuttlefish come together to create the entire pattern.
+10:39 Recall, one half of the cuttlefish is equivalent to one object.
+10:46 In the first case, we applied a translation, as shown both horizontally and vertically.
+10:52 We can then introduce the mirrors, and we do this on every part, until we create the entire pattern in pm.
+11:03 In the second case, where we apply the cm symmetry, we apply first the glide line as shown
+11:09 We have to do that operation twice, to obtain translational repeat along b.
+11:15 We can then introduce the mirror lines, and finally, we can look at translation in a vertical direction to create the entire pattern.
+11:26  In the first part of this course, we looked at tiling and in crystallography, we also use tilesu they are formally referred to as unit cells.
+11:37 We ave now seen that there are 5 and only 5 Bravais lattices, which Escher was able to use to create his testallations.
+11:46 We've also observed that once we introduce one symmetry operation, we create additional symmetry operators in the process.
+11:55 We have also seen, that by inspection, you can determine where objects will lie after the action of the symmetry operator.
+12:06 So we have seen, that even the most compicated Escher patterns, rely on plane symmetry.
+12:13 And even though the symmetry elements may be hidden,
+12:16 simply through the beauty and complexity of the pattern, they do in fact, exist.

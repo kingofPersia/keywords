@@ -1,0 +1,28 @@
+autonomous soft robot
+A team of Harvard University researchers with expertise in 3D printing, mechanical engineering, and microfluidics has demonstrated the first autonomous, untethered, entirely soft robot. This small, 3D-printed robot -- nicknamed the octobot -- could pave the way for a new generation of completely soft, autonomous machines.
+
+Soft robotics could revolutionize how humans interact with machines. But researchers have struggled to build entirely compliant robots. Electric power and control systems -- such as batteries and circuit boards -- are rigid and until now soft-bodied robots have been either tethered to an off-board system or rigged with hard components.
+
+Robert Wood, the Charles River Professor of Engineering and Applied Sciences and Jennifer A. Lewis, the Hansjorg Wyss Professor of Biologically Inspired Engineering at the Harvard John A. Paulson School of Engineering and Applied Sciences (SEAS) led the research. Lewis and Wood are also core faculty members of the Wyss Institute for Biologically Inspired Engineering at Harvard University.
+
+"One long-standing vision for the field of soft robotics has been to create robots that are entirely soft, but the struggle has always been in replacing rigid components like batteries and electronic controls with analogous soft systems and then putting it all together," said Wood. "This research demonstrates that we can easily manufacture the key components of a simple, entirely soft robot, which lays the foundation for more complex designs."
+
+The research is described in the journal Nature.
+
+"Through our hybrid assembly approach, we were able to 3D print each of the functional components required within the soft robot body, including the fuel storage, power and actuation, in a rapid manner," said Lewis. "The octobot is a simple embodiment designed to demonstrate our integrated design and additive fabrication strategy for embedding autonomous functionality."
+
+Octopuses have long been a source of inspiration in soft robotics. These curious creatures can perform incredible feats of strength and dexterity with no internal skeleton.
+
+Harvard's octobot is pneumatic-based, i.e., it is powered by gas under pressure. A reaction inside the bot transforms a small amount of liquid fuel (hydrogen peroxide) into a large amount of gas, which flows into the octobot's arms and inflates them like a balloon.
+
+"Fuel sources for soft robots have always relied on some type of rigid components," said Michael Wehner, a postdoctoral fellow in the Wood lab and co-first author of the paper. "The wonderful thing about hydrogen peroxide is that a simple reaction between the chemical and a catalyst -- in this case platinum -- allows us to replace rigid power sources."
+
+To control the reaction, the team used a microfluidic logic circuit based on pioneering work by co-author and chemist George Whitesides, the Woodford L. and Ann A. Flowers University Professor and core faculty member of the Wyss. The circuit, a soft analog of a simple electronic oscillator, controls when hydrogen peroxide decomposes to gas in the octobot.
+
+"The entire system is simple to fabricate, by combining three fabrication methods -- soft lithography, molding and 3D printing -- we can quickly manufacture these devices," said Ryan Truby, a graduate student in the Lewis lab and co-first author of the paper.
+
+The simplicity of the assembly process paves the way for more complex designs. Next, the Harvard team hopes to design an octobot that can crawl, swim and interact with its environment.
+
+"This research is a proof of concept," Truby said. "We hope that our approach for creating autonomous soft robots inspires roboticists, material scientists and researchers focused on advanced manufacturing,"
+
+The paper was co-authored by Daniel Fitzgerald of the Wyss Institute and Bobak Mosadegh, of Cornell University. The research was supported by the National Science Foundation through the Materials Research Science and Engineering Center at Harvard and by the Wyss Institute.

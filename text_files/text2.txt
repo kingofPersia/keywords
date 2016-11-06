@@ -1,0 +1,29 @@
+Node.js has been gathering a lot of attention lately. Let's try to understand what Node.js is. And what role does NPM play, together, with Node.js? Now what exactly is Node.js? Node.js is a JavaScript runtime that is built on top of the Chrome V8 JavaScript Engine. The Chrome V8 JavaScript Engine was built originally to a part of the Chrome browser and to support the JavaScript that runs within your browser. Now once you separate the engine out of the browser and let it run on your machine, you're able to support the running of JavaScript programs on your machine. Now this brings a lot of interesting capabilities. 
+
+The node environment uses an event driven, non-blocking, I/O model which makes it very lightweight and efficient to handle primarily data driven websites. We're gonna look at that aspect in a later course. Now, in this course we will look at nodes used primarily as a JavaScript runtime. 
+
+This is a quick overview of the node architecture. At the bottom layer of course, as they said node runs on top of 
+
+Google Chrome's V8 engine, so Chrome V8 engine it at the bottom together with libuv, which enables interaction with the underlying 
+
+computer system, and the devices, and so on. And on top of that, we have node bindings, which are written in C++. The uppermost layer is the node core, or standard library, we just completely implement it in JavaScript. Now this is what we make use of. When we use the node runtime. 
+
+The node JavaScript runtime has been used in two different ways. First, a lot of people have written a set of interesting web development utilities. In JavaScript to run on node and support various use cases for web development. So we have tools like Bower, Grunt, Gulp, and so on, which are all written in JavaScript. We're gonna explore some of these in the next few lectures in this course. 
+
+Node also brings JavaScript to the server side. Earlier when we looked at web development we saw that we needed to use a completely different language of the server side like ruby, python, Java ASP.NET, PHP, and so on. 
+
+With the availability of Node, you can start writing server-side implementation completely in JavaScript, so with a single language. JavaScript in this case, you are able to target both the front end as well as the back end. So that's the flexibility that node brings you for back end development. We're gonna explore this part of it in a entirely different course which will follow towards the later part of this specialization. 
+
+In the context of node you often hear people talk about the node package manager or NPM. 
+
+This is a manager that manages the ecosystem of node modules, or packages. A lot of people have already written 
+
+very useful libraries that can be Used with node. These are package in the form of node modules that you can download and install within your system and make use of these libraries within your own node development that you do in JavaScript. 
+
+We are gonna explore a little of this in this course but you will see a lot more of this in the server side node application use cases. 
+
+Now, a node package contains the JavaScript files, which obviously implement the libraries, and also a file called package.json, which is like a manifest file. We're gonna look at an example of package.json for some use cases in some of the later lectures. 
+
+Now we'll move on to a couple of exercises where we learn more about node. 
+
+We'll first look at setting up node and NPM. And then we'll understand node modules by implementing a very simple example. 

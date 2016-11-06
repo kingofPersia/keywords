@@ -1,0 +1,132 @@
+00:19 Let's recap what we've so far learnt about Symmetry.
+00:25 We began by looking at the five Bravais lattices.
+00:31 We then applied these to the use by Escher to create his wallpaper patterns.
+00:38 But what we need to do now, is look at these ideas mathematically.
+00:43 We have to understand them in a formal way.
+00:48 And in particular, we bign by looking at the difference between the so-called general and special positions.
+00:53 General and special positions are created depending on where the object is with respect to the tile or unit cell.
+01:04  By having general and special positions, we can replicate objects in different proprtions.
+01:12 We also need to learn, how to read, the plane group tables.
+01:19 By reading the plane group tables, we can understand the diagrams for the genral positions, and also the symmetry operator positions.
+01:25  And this is great shorthand, to figuring out, where the object will be located through the application of plane symmetry.
+01:34 Now, let's discover the difference between geneal and special positions.
+01:39 For this exercise, we'll use a rectangular Bravais lattice.
+01:44 The repeating tile or unit cell is now superimposed on that lattice,
+01:49 and illustrated by a blue outline
+01:52 On top of that rectangle, we want to insert symmetry operations,
+01:57 and for this example, we'll use two-fold or diag rotation points and mirror lines.
+02:04 You'll notice that the mirror lines, which are both vertical and horizontal intersect at the rotation points.
+02:11 Inside that repeating tile, we place one object, the red square, in the top left-hand corner.
+02:20 The question now is, through the application of rotation and mirrors, how many objects we produce per unit cell.
+02:30 It turns out, that we produce them, as shown here.
+02:35 In the uppermost and lowermost corners, we have a total of 4 red squares.
+02:42 When you look at the diagram this way, it might not be so obvious, where those red squares came from.
+02:49 But if you look at their distribution around the origin, it becomes more obvious.
+02:55 By applying mirrors, both vertically and horizontally, we would generate that total of 4 red squares.
+03:04 What would happen, if we placed a blue square on the horizontal mirror as shown now in the diagram?
+03:13 How many additional blue objects would we create?
+03:18 In this case, there would only be one additional object per unit cell.
+03:22 So the total would be 2 blue squares per unit cell,
+03:26 and this is because, only the vertical mirror plane, or the central 2 fold rotation point, is operating.
+03:34 The mirror lines, which are uppermost and lowermost, do not create any additional blue squares.
+03:41 If we extend across all of the tiles, we see the total pattern of blue squares in this example.
+03:51 Let's do the same, with the vertical mirror, in this case, we use a green square.
+03:57 As you would've probably guessed, we produce 2 of these per unit cell and we can extend that throughout the extent of the tiling.
+04:06 FInally, let's place a yellow square, at the central rotation point.
+04:11 Through the application of mirrors,both horizontal and vertical, and the rotation, how many additional yellow objects do we produce?
+04:21 Infact we do not produce any more, there are only 1 of these per unit cell.
+04:25 And again, we can through space, to show all of these.
+04:32 So what you can see, is that the difference between a general position,
+04:36 where the object lies away from any of the symmetry operators,
+04:39 and the special positions,
+04:41 where the object lies on top of a symmetry operation, is the number of objects created. 
+04:47 The general position, always creates the maximum number of objects possible, in this case 4 per unit cell.
+04:55 But as you place objects on positions of higher and higher symmetry, you produce fewer and fewer objects.
+05:04 If we look inside the International Tables of Crystallography, you'll find this section abou plane groups.
+05:10 It shows that there are 17 plane groups.
+05:14  and only 17 of these.
+05:16  Every page of the plane group table, contains specific information.
+05:21 At the top, left hand side, you will always see the symmetry operation diagram.
+05:28 On the right hand side, is the general position diagram.
+05:32 And then underneath here, we see where the general positions will lie, with respect to their fractinal coordinates, x and y.
+05:41 Every plane group table, looks like this.
+05:45 And we've provide you, on the internet, the resources where you can find this information.
+05:51 So let's return, to this arrangement, as shown before, where we generated the special and the general positions, for the different coloured squares.
+06:00 How do we use the information in the space group tables, to look at this more formally.
+06:05  In fact that arrangement of diade rotations , and vertical and horizontal mirrors conforms to the plane group, p2mm , which is actually number 6 in that series of 17 plane groups.
+06:22 The p implies that the cell is primitive.
+06:26 The 2 shows, that there are 2 fold rotaion points,
+06:31 and these are located at the origin of the unit cell and also at the centre, and the edges.
+06:38  Wherever we have a 2 fold rotation point, we have 2 intersecting mirrors.
+06:43 Hence, the symmetry symbol, p2mm.
+06:48 Formally, the origin of the unit cell, is shown in the top left hand corner.
+06:54 the a direction is vertical, and the b direction is horizontal.
+07:00 so, the fractional coordinates x and y are also vertical and horizontal.
+07:05 If we place, an open circle, in the top left hand corner, and use the p2mm 
+symmetry to operate upon it, we create chiral objects.
+07:19 Because there is a mirror involved.
+07:21 So we create chiral objects as shown, using the vertical mirror, and also, the horizontal mirro,
+07:28 And also, if we apply those mirrors again, we create another object in the bottom right hand corner,
+07:35 which is no longer chiral with respect to the original object.
+07:40 Again, just as we already demonstrated with the squares, we can generate a group of 4 objects around every origin.
+07:49 But now we are carrying one additional piece of information, which is that it is 2 pairs of chiral objects.
+07:57 We can then look, at the fractional coordinates, for the position of those objects inside the unit cell.
+08:04 The first object, we began with might be given the nomenclature, x,y.
+08:11 We can then label, all the objects, inside the unit cell as shown.
+08:16 so we have x,-y ; -x,-y and -x,y.
+08:26 In crystallography, the minus sign normally placed, aboved the x or the y.
+08:31 This then defines, using fractional coordinates, all the general positions.
+08:36 And we list them, with the number(1,2,3,4) with the actual general position, written next to it.
+08:46 So how is this information presented, in the plane group tables.
+08:52 We show here, the two diagrams involved.
+08:56 On the left, we have the symmetry position diagram, on the right, we have the general position diagram.
+09:01 I'm showing as well, precisely where the mirrors and the diads lie.
+09:08 But we also have some additional nomenclature that we have to learn.
+09:12 Multiplicity, which we already mentioned in our discussion of the Escher tile, 
+09:17 but also the Wyckoff position, site symmetry, and positions of coordinates of every object.
+09:24 An object which does not lie on the symmetry position is on general position.
+09:32 And it has multiplicity 4, we have total of 4 objects inside the unit cell.
+09:38 Two open circles, and 2 circles, with the comma.
+09:42 The site symmetry is 1 because the object is not sitting on an operator.
+09:49 If we place an object, on 1 of the symmetry operations, such as 1 of the mirrors,
+09:55 we produce a special position, and the multiplicity must be less than the general position.
+10:02 In this case, we can find, 4 special positions, lying on mirrors, as shown here.
+10:08 We can also place objects directly on top of the 2 fold rotation points.
+10:16 But here, at the 2 fold rotation points, 2 mirrors intersect,
+10:19 so the site symmetry is 2mm.
+10:24 You'll also notice that the multiplicity, must only be 1, and we have 4 of these sites, which have that type of multipicity.
+10:32 Finally, to complete the information in the plane group tables, we need to assign Wyckoff symbols or Wyckoff letters.
+10:41 This is very straightforward.
+10:44 All we do, is label, from bottom to top, in sequence of the alphabet.
+10:51 So a b c d and so forth, starting at the bottom.
+10:55 Now let's take a moment, to look at how the site symmetry symbols work.
+11:00 For the general position, the site symmetry is 1, indicating that the object is not lying on top of any symmetry operation.
+11:08 In ths case of the sites, which are produced by placing an object on the mirror line, we use the m symbol, but the position of the m symbol is important.
+11:18  Generally, we use 3 positions, to describe site symmetry.
+11:23 these could be indicated by 3 dots.
+11:27 the 1st dot, is always used to represent the rotation axis.
+11:32 the later dots, indicate mirror lines or glide lines.
+11:37 The middle dot, is used to indicate mirror, which is at right angles to the x direction.
+11:43 The final dot, is used to indicate the mirror which is at right angles to y direction.
+11:48 For the diad rotation points, the site symmetry is 2mm,
+11:53 and that's because the mirrors intersect there.
+11:59 We can also discover, from the general position diagram, what the asymmetric unit must be.
+12:05 Remember, the asymmetric unit will only contain 1 object, on which the actions of the symmetry produce all of the general positions.
+12:12 So, in this case, the asymmetric size, of this symmetry p2mm, is the top left quadrant of the cell.
+12:25 These lectures have been particularly information rich .
+12:28 We have spent a lot of time talking abou the general positions and special positions in the plane groups.
+12:37 For general postion, the object does not lie, on top of any symmetry operator.
+12:41 In case of special position, the object superimposes 1 or more of the symmetry operators.
+12:49 When the object sits on top of a symmetry operator, it has no effect.
+12:53 In other words, it does not generate any new positions.
+12:58 Consequently, the multiplicity of the general position, always exceed the multiplicity of the special positions.
+13:06 Becasue we can create special positions, which are differnt but have the same multiplicity, we need to be able to differentiate these.
+13:15 and to do that, we use Wyckoff symbols.
+13:19 The Wyckoff symbols are assigned, from the highest symmetry point to the lowest symmetry point
+ 
+
+
+
+
+
+

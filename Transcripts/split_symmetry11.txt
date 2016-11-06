@@ -1,0 +1,176 @@
+What we want to do now is move from two-dimensional or plane symmetry into three-dimensional symmetry and three-dimensional structures and in front of me here are two examples of polyhedron which make use of plane nets, which are then folded to create three-dimensional shapes
+
+If we take as our first example this red polyhedron here… it’s known as a tetrahedron and – as you probably know – tetra means four
+
+The tetra is referring not to the
+number of corners on this shape but the number of faces
+
+So, there are four faces with this tetrahedron
+
+What’s important is that when you look at any particular face you can see it’s a triangle
+
+So, intuitively you know that if you were to fold up a triangular net, you could create a tetrahedron
+
+The other solid figure here is what’s known as an octahedron
+
+In this case the octa, which is for
+eight in Greek lexicon… the octa is referring to the eight faces
+
+So, you’ve got four here at the top
+
+You have four underneath
+
+Actually in this case there are only six corners, but again if you have a look at this shape, you can see each face is a triangle
+
+So, by folding the triangular net in a different way you can create an octahedron rather than a tetrahedron
+
+The purpose, then, of this
+lecture is to consider in detail, how do we develop these three-dimensional shapes from the two-dimensional networks
+
+In particular we want to define the so-called Schläfli notation
+
+The Schläfli notation provides us with a quantitative way in which we can define the solid figure by counting up the number of faces that surround each vertex
+
+Historically there are five very important solid figures that are known as the Platonic solids and these
+Platonic solids come up time and again in symmetry whether it be in architecture, in nature, or in crystallography, so it’s important that we understand the way in which these figures are constructed
+
+There are of course many other solid shapes beyond these five Platonic solids and we can’t look at all of these in this course, but we will look at one, which is known as an Archimedean solid
+
+It’s known as a cube octahedron
+
+To create a tetrahedron from a
+triangular network we select four adjacent triangles
+
+The central triangle in the animation is shown in blue and the surrounding triangles in green and red and yellow make up the four faces of the tetrahedron
+
+When these are folded together to create the solid figure we also create four vertices
+
+It’s also possible to count the number of edges and for the tetrahedron there are six of these
+
+The formal description of the tetrahedron is derived from counting the number of triangles around each vertex to derive the Schläfli notation symbol, which is 3
+
+3
+
+3 or 33
+
+The tetrahedron can be viewed down its principal axis
+
+If we look down the threefold axis, it’s represented by a triangle indicating threefold rotation and the associated mirror planes
+
+We can also view the tetrahedron in such
+a way that we view a single mirror or we can rotate so that we view a fourfold inversion axis
+
+Fourfold inversion is something which we will cover in more detail in coming lectures, but it involves rotation of 90 degrees and then inversion through an inversion point
+
+To construct an octahedron we again start with a triangular network, but in this case it requires eight triangles to
+build the solid figure
+
+These eight triangles of course create the eight faces that are observed
+
+Once these are folded together we find that we have six vertices
+
+In addition we can count the number of edges and for the octahedron there are 12 of these
+
+Each vertex of the octahedron is surrounded by four triangles, so the Schläfli
+symbol for the octahedron is 3
+
+3
+
+3
+
+3 or – in shorthand – 34
+
+To view the octahedron we select three principal directions
+
+The direction which is easiest to visualise is looking down a fourfold rotation axis
+
+As we know, every fourfold rotation axis is associated with mirror planes and these mirror planes will be of two
+types: those that pass through the edges of the octahedron and those that pass through the corner
+
+We can also rotate the octahedron to see twofold rotation and – in addition – threefold inversion
+
+To construct a cube we begin with a square net rather than the triangular networks that we used for the tetrahedron and the octahedron
+
+In this case we select six squares that will end up
+forming the six faces when we fold it up into the three-dimensional body
+
+After folding up the square faces we find that we end up with a solid that shows eight vertices and we can also count up the number of edges and there are 12 of these
+
+The Schläfli symbol for the cube is 4
+
+4
+
+4 or 43, which is telling us that we have three
+squares around every vertex
+
+If we look at the cube down its fourfold rotation axis, we see the two types of mirror planes associated with that rotation
+
+We can then rotate the cube to look down the body diagonal, which is shown as a threefold inversion axis
+
+Finally we can look in across an edge of a cube and in this
+case we end up with a twofold rotation axis; again associated with a mirror plane
+
+Now we’ve looked in some detail at three of the Platonic solids: the tetrahedron, the octahedron, and the cube
+
+There are two other Platonic solids
+
+These are the icosahedron and the dodecahedron
+
+The dodecahedron is a little bit different to those we’ve considered so far because it’s based on a pentagonal
+network and in this case you join together these five-sided pentagons to create a figure with 20 vertices, 30 edges, and 12 faces
+
+This is a fairly complicated figure and we won’t spend a lot of time on it in this course, but I think you’d agree it does look like quite a beautiful shape
+
+The final Platonic solid is the icosahedron
+
+In this case it is again made up of triangles, but there are a total of
+20 triangular faces, so it’s much more complicated than, say, the octahedron, which only used six triangles
+
+So, to summarise all the points that we’ve covered to date – and there are quite a number; the tetrahedron, the octahedron, the cube, the dodecahedron, and the icosahedron – we define these formally using the Schläfli symbols and remember the Schläfli symbols are derived by
+counting the number of faces around each vertex
+
+All the Platonic solids are composed of a combination of triangles only, squares only, or pentagons only
+
+Because you use faces which are always the same shape, these are known as regular solids
+
+You will notice that the way in which the names of the solids are derived is by counting the number of faces
+
+So, in the simplest example – the
+tetrahedron – you count up four of these faces
+
+If you look in detail at the diagram of the top of this slide, you will see that all the vertices of the Platonic solids lie on the surface of spheres and that is also a property of these types of solids
+
+Finally we’ll look at one example of an Archimedean solid
+
+The Archimedean solids are
+known as semi-regular solids
+
+They’re semi-regular because they’re composed of faces of two types and in this case it’s a square face and a triangular face
+
+The same principles apply however
+
+We can take the plain net and fold it to create the three-dimensional solid, but in the case of the cube octahedron where you have surrounding each vertex two squares and two triangles – so, the
+Schläfli symbol is 3
+
+4
+
+3
+
+4 – we create a solid figure with 12 vertices, 24 edges, and 14 faces
+
+In general the Platonic and the Archimedean solids obey the Euler rule, which states the sum of the edges and faces subtracted from the number of vertices will always equal two
+
+So, to conclude this lecture, let’s recap everything that
+we’ve learnt
+
+Firstly, there are five regular polyhedra, which are known as the Platonic solids
+
+These Platonic solids are the tetrahedron, octahedron, cube, icosahedron, and dodecahedron
+
+For the regular solids every face has the same shape: either a triangle or a square or a pentagon
+
+There are also semi-regular shapes
+
+In this
+case you have two types of polygons making up the solid figure and the example that we looked at was an Archimedean solid known as a cube octahedron
+

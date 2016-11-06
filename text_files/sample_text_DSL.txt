@@ -1,0 +1,90 @@
+Nowadays, Internet technology is developing as fast as we need. Users of the Internet are still increasing and they are in need of a more powerful supporting technology to ensure a more steady connection and a higher rate of transmission.
+
+So, a kind of technology came, which is called “ADSL”.
+
+What does this word mean? The full name is: “Asymmetrical Digital Subscriber Loop”. As the name suggests, it is an improvement of the technology called DSL – “Digital Subscriber Loop”.
+
+The basic idea of ADSL, or say, the basic characteristic of ADSL technology is “Asymmetrical”. It provides users an asymmetrical upload & download bandwidth. The upload bandwidth is limited in 640Kbps, while the download bandwidth is able to reach 8Mbps. This is the most important idea of ADSL, and this feature provides a satisfying connection status while users are trying to get video/sound track downloading service and information sharing when users do not need a high upload transmission rate.
+
+ADSL technology uses normal copper wire which is used by telephone transmission. The installation of ADSL is simple and costless. Users only need to set an ADSL multi-use xxxx on the original telephone wire – not a completely new one and there is of no need to change users’ phone number.
+
+Why does ADSL technology have such advantages? Some users may ask, based on the fact that it didn’t improve the technology of wire/cable production arts and it even uses the same wire with telephone! The answer to this question includes several points. Firstly, it is asymmetrical, as I mentioned above. This key technique is, simply explaining, doing the job: improve the distribution of resources – divide the total bandwidth according to our needs.
+
+And there is, of course, more myth inside this question. As we all know, currently we use the twisted pair wires to transmit telephone sound signal. But, what is worth our attention is that, we are only using the low frequency part of the wire which limits the frequency between 0 and 4 kHz. How can this narrow bandwidth satisfy our demands? Actually, we are just using the wire, not the bandwidth in this very wire. ADSL makes use of a higher frequency band which is defined between 26 kHz~2 MHz. What is the theory of this kind of “double frequency band signal” transmission? Well, this is not a mystery and even a very simple fact. The signal is coded by the ADSL modem and transmitted through the telephone wire, at beginning. Then, when it reaches the telephone department, a signal decoder start to work and separate the high frequency part and low frequency part, or say, the digital signal part and the voice signal part. Finally, when these have been done, the decode sends them to corresponding service devices: digital signal part heads towards the Internet and voice signal part heads directly to the PSTN net. Simple enough, although how the decoder and encoder work is beyond my understanding and was left to the future studying. This method of using the same transmission path but in different frequency to transmit a series of signals is called “FDM” -- Frequency Division Multiplexing.
+
+Copper is being replaced nowadays because its high distortion. Hope that optical fiber technology will be ready in the near future. (P.S The upload rate of transmission is affected by the distance, size of wire used and noises, and is between 10 kbps ~ 60 kbps)
+
+I have found some information about the standards of ADSL technology, fortunately. (Should be useful to anyone who wants to learn the history or basics of ADSL) Since ADSL tech was born, there exist two standards: CAP and DMT. CAP was designed by AT&T Paradyne and DMT was developed by Amati Communication Company. Recently, a new standard called G-lite was accepted by users. DMT and G-lite are professional in their own fields, though G-lite attracts more attention these days.
+
+CAP – Carrier-less Amplitude/Phase Modulation
+CAP is the special modulation method used only by AT&T Paradyne. Signal is modulated into single channel and send through a telephone wire. Signal should be encoded before transmission and will be reformed at the receiver terminal.
+
+DMT?Discrete Multi-Tone?
+First the system divide the signal pack into several parts and tests the transmission qualities of every channel. Then, the system provides a certain signal bandwidth to a channel according to its quality. This means: systems always try to find the best way to transmit signals.
+G-lite
+G-lite is a new standard, so far as I know. This standard is developed by Universal ADSL Working Group. (Further details are left for future studying)
+
+The above is some basic understandings of ADSL technology. Now, we shall move to its characteristics of ADSL and I will try to explain the cause of these characteristics. (You can consider the following part as the advantages of ADSL technology)
+
+Second part: The advantages of ADSL & corresponding technology
+
+See, a new technology’s birth means there are some advantages comes with it (though it is not a totally new improvement). Modem and ISDN technology have brought us a more and more satisfying connection to the Internet. ADSL shows its superiority, too. Generally speaking, ADSL connection technology has following advantages: A steady connection to the Internet and magically, a super high-rate transmission! This depends mainly on its design ideas, as we have covered earlier. Asymmetrical upload and download rate of transmission perfectly uses the bandwidth recourses users have when we connect into the Internet.
+ADSL provides a much higher rate of signal transmission than traditional modem (28.8k) – about 200 times higher! At the same time, it outnumbered the ISDN technology (about 128K), a lot.
+Compared with the cable modem technology, ADSL is more “flexible”, although it has a lower download rate.
+
+ADSL needs a very small investment.
+It uses the original telephone wire, not some advanced tech. This greatly reduced the cost of installing an ADSL modem. And it will not affect the quality of users’ phone talks, need no change in phone number.
+
+ADSL reduce the cost through the multiple use of one wire.
+Users of ADSL need not to pay additional fees for using a telephone wire when they are connected to the Internet. Finally, ADSL has a low installation difficulty. Users can install any ADSL modem instruments on their own. There is no need to invite a professional engineer to handle these.
+
+3rd part: Applications of ADSL tech
+Before we look at the possible applications of ADSL, I want to talk something about the theory of ADSL tech, in detail. ADSL use a special device to connect the twisted pair wire’s terminal. It has a high-speed downstream, a duplex and a low frequency POTS (4 kHz). The POTS channel ensures that the voice transmission works even the ADSL connection attempts failed. At the same time, the high-speed and medium-speed channel both are able to be multi-used to create several low-speed channels. Normally, the high-speed channel has an average transmission rate of 6 MHz and the medium-speed duplex has an average transmission rate of 64 kHz. ADSL has a powerful error-correcting system due to its multi-used downstream and duplex. It has been tested that ADSL is able to handle MPEG2 and several other digital video formation.
+
+So, what can we do with this technology?
+I searched the net, and made some conclusions:
+
+High-rate connection.
+
+Since ADSL technology has brought us such a convenient connection method,
+
+What are we waiting for?
+
+We can use ADSL to surf in the Internet. BBS, websites are now more convenient to be browsed.
+
+We are able to use ADSL to get a much higher e-mail transmitting rate. An encouraging fact is that ADSL makes online-chat possible!
+
+Playing videos and users have full control of the application program.
+
+Thanks to the asymmetrical upload and download transmission rate, ADSL technology is able to be perfectly used in video playing, downloading sound tracks or playing online games. ADSL satisfies the need of having both a high rate of signal transmission and a steady connection to the signal source.
+
+Creating strong and reliable connections between terminals.
+
+The ADSL wide-band connection technology provides possibility that companies combine their branch companies with the mother company network. This is also benefit from the stability of ADSL tech. This solution solves the problem caused by the distance between companies and will not affect the transmission rate of every user in the net when they are surfing in the Internet.
+
+In-house work support.
+
+In modern society, people tend to have a better working environment. So, many choose to work at home. If the available permits, of cause. ADSL can make this a real thing. Users can have a high-rate access to the data base of the company when they are sitting at home. Moreover, workers can enjoy the service of a high qualified online video meeting. This is what traditional modem can not provide.
+
+Long-distance medication and long-distance teaching, etc.
+Like in-house working, people tend to enjoy various services at home. ADSL also provide the possibility that teaching and medical treatment materials are available at home through the connection to the Internet.
+
+Generally speaking, thanks to the satisfying bandwidth of ADSL connection, users can get whatever data they need, never needing to consider the problem caused by a low bandwidth. At the same time, users do not need to worry about the fees of waiting in the net endlessly.
+
+4th part: ADSL: compared with Cable modem technology
+There are always competitors. As ADSL is developing fast, several other technologies also tend to give a solution to the steady connection and provide a high rate transmission.
+Here, let us compare ADSL with the technology Cable Modem.
+
+Cable modem system uses the TV to get access to the Internet (HFC (Hybrid Fiber Coax)), while ADSL makes use of the telephone wire. Cable modem provides an upload channel between 5 ~ 45 MHz and a download channel between 550 ~ 750 MHz.
+
+First, we shall compare the bandwidth. This is an important factor of a connection technology. Generally speaking, cable modem technology has an advantage in bandwidth. Every sub-channel of cable modem can reach a total data transmission rate of 25 ~ 40 Mbps. So, when used by a small amount of users, cable modem performs perfectly. But, (users) sharing the same bandwidth makes the transmission rate unreliable, in some degree. On the contrary, ADSL provides a stable transmission rate.
+
+Second, we can look at the ability to resist distortion. Cable modem uses coaxial wire while ADSL is still using the traditional telephone wire. This gives the cable modem technology unmatchable superiority of resisting distortion.
+
+Finally, we can see that ADSL instrument is easier to install than cable modem.
+
+Nowadays, people are still trying to make full use of narrow bandwidth wire to achieve high transmission rate and our final goal is successfully using the light to carry signals. Optical fiber is still being developed. Both ADSL and cable modem technology are useful technology and connection device before the final goal is achieved.
+
+Final discussion
+As we can see from above, ADSL technology is a creative idea of how to make full use of original telephone wire. “Low cost, easy to install, stable transmission rate” are its most significant advantages.
+More and more users especially families are trying this technology. In the words above, I just covered some basic theory and applications of ADSL technology. We, should learn something from its interesting and creative ideas.

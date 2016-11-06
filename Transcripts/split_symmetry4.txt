@@ -1,0 +1,217 @@
+Description of symmetry to date really has been qualitative
+
+Now we have to begin to think about a quantitative description of symmetry
+
+So in this last section of part one of the course, we need to talk about the generation of symmetrically related objects, and do this in a way that we can specific their fractional coordinates
+
+For these exercises we’ll look at square and triangular networks
+
+
+Secondly, we need to bring together all that you have learned about point symmetry, and particularly that there are ten point symmetry groups
+
+And finally – and this is to help you carry out your first exercise – you need to learn how to superimpose crystallographic symbols on common objects to define their point symmetry
+
+Let’s begin by looking at square nets
+
+Previously we talked about chiral objects, and you must remember that chiral objects are always produced by
+reflection
+
+Also remember that the symbol for reflection is a single solid line
+
+So if you look at the top of this slide you can see an open circle and a circle with a comma inside
+
+This is how we formally represent the relationship between chiral objects, through the application of a mirror we create the chiral object
+
+Also recall that the reflection is what’s known as a symmetry operation, and the mirror line itself is what is known as a symmetry element
+
+Now let’s start to use this
+terminology and these symbols on nets
+
+And we begin with a square net, because that’s the most straightforward
+
+If you plot any object on a square net you can give is coordinates X, Y
+
+In this case we have the X axis pointing downwards, and we have the Y axis pointing towards the right
+
+Recall, from our discussion on tiling, that this is a standard way to represent the X and Y directions
+
+If we introduce a horizontal
+mirror, illustrated by the blue line, then we will generate a second object, minus XY
+
+Because the object is generated through a mirror, we show that it is a chiral object with respect to the first object
+
+What would happen if, instead of placing the object at position XY we place the object, shown by the green circle in this case, right on top of the mirror line
+
+Would we generate any more objects
+
+The answer is:
+nothing
+
+We do not generate any more objects, and nothing happens to that green object when it lies exactly on the mirror line
+
+So you can see that for objects to be generated, they have to lie away from the symmetry operator
+
+In total, in this particular square net, we have two objects
+
+If the object lies away from symmetry line, when we use the mirror line once we generate one additional spot, which has a chiral relationship
+
+
+We can do the same thing with a vertical mirror
+
+In this case, again we generate two symmetrical objects
+
+For both of those square nets, whether the mirror is horizontal or vertical, we say that the point symmetry is M, because we have only one mirror present
+
+Similarly, with the network on the right, if we place a green object on that vertical mirror, we do not generate any additional objects
+
+When the objects lie away from a symmetry operator, the XY objects, we generate the
+maximum number of objects possible, and this is known as a general position, and we’ll keep returning to this concept of general position throughout the course
+
+So now let’s look at the square net again, but in this case we’ll introduce two-fold rotation
+
+The two-fold rotation point will be at the intersection of the X and Y axes
+
+If we start with an object XY, apply the two-fold rotation, which is a 180 degree
+rotation, sometimes known as a dyad rotation, we generate the object minus X minus Y
+
+Notice that as there is no mirror involved, we did not introduce chirality
+
+So both the circles are open
+
+If we decide to put an object directly on the rotation point, so again we place a green circle right at the centre, what happens
+
+Absolutely nothing
+
+Because objects
+which lie on a symmetry operator do not change
+
+Now let’s begin to combine symmetry elements
+
+On the right hand side, we are introducing not only two-fold rotation, but also a vertical and a horizontal mirror
+
+Now you can see that we generate a total of four objects
+
+Their coordinates are shown as well
+
+Also recall that it wouldn't matter if we did the
+rotation first or the mirrors first, we can apply those symmetry operations in any order and we will end up with the same result
+
+For the example on the left, we would say that the multiplicity, or the number of general positions, is two, X, Y and minus X and minus Y
+
+For the example on the right, we would say that a general position has a multiplicity of four, because we have generated four objects
+
+
+Now we go to slightly more complicated example, and I introduce a little bit of matrix algebra to help explain what is happening, however this will not be testable part of the course
+
+The matrix algebra is for those who would appreciate the rigour with which it helps us define the change in symmetry
+
+If we take, again, the example on the left hand side, we now have a four-fold rotation point
+
+
+In this case, because we are rotating through 90 degrees, which means we introduce objects which are unchanged in aspect through the 90 degree rotation, we have a general position which has a multiplicity of four
+
+One thing that I should emphasise is that in crystallography, and in symmetry nomenclature generally, the rotations always take place in an anti-clockwise direction
+
+So for those of you who are not
+interested in the little bit of matrix algebra below which illustrates why that is the case, just remember that the rotations will always be anti-clockwise
+
+If we now combine the four-fold rotation with mirrors, then what we will find is that we generate eight objects inside the [Not transcribed]
+
+So now the general position has a multiplicity of eight
+
+You can see that as we put more and more symmetry operations
+together, the multiplicity of the general position increases, and this again is generally true
+
+Now let’s come to the file examples, this is where we look at a triangular network
+
+And we use triangular and square nets to describe these symmetry operations because these are the ones which are commonly observed
+
+It’s a little bit more tricky, and again, do not be concerned about the small amount of matrix algebra if it’s not
+of interest to you, or you don’t have the math to cope, but again, the main thing to emphasise is that the rotation must occur in an anti-clockwise direction
+
+Because we’re dealing with a triangular net, and we place an object XY in a general position, we generate three objects
+
+So the general position will have a multiplicity of three
+
+And here we have the final
+examples, and this is where we combine the mirror lines with the three-fold rotation, which is illustrated by the triangle
+
+In this case it does matter where you place the mirror lines with respect to the rotation point, and you can see the two examples
+
+The point symmetry is either 31M or 3M1
+
+The first symbol, as we’ve already discussed, will indicate the rotation point
+
+
+The second symbol and the third symbol indicate whether there are mirrors or not
+
+In the first example, 3M1, the positioning of the mirrors will place a combination of chiral and achiral objects as shown
+
+In this case, the reflections are lying parallel to the X and the Y axes
+
+In the right hand case, we also generate six objects
+
+But now the reflection planes are perpendicular to the X and Y objects
+
+
+So let’s collect together what we’ve now learned
+
+We’ve given many examples of point symmetry, in flowers, in wheels, and so on
+
+In fact it turns out there are ten point symmetry groups, and these are summarised in this slide
+
+Most of these we have already encountered, and it’s not necessary for you to remember these, it’s only necessary to understand what they are telling you
+
+
+You will notice in these point symmetry groups that where you have a single symbol indicating just rotation, none of the objects are chiral with respect to each other
+
+In fact, all of the circles are shown as open circles
+
+But as soon as we introduce mirror lines, then we have chiral relationships between the objects, and so you see open circles and circles with a comma inside
+
+
+There are only ten point symmetry groups that we need to consider
+
+Now let’s collect together all of the symmetry symbols we have encountered so far
+
+First there is translation, and translation is always indicated by a line with an arrow, showing the direction of the translation
+
+In general, translation will be a distance which is equal to half the edge of the tile or the unit cell, but not always
+
+
+We’ll encounter different instances of this later in the course
+
+Reflection is shown as a continuous solid line
+
+We know what happens in reflection, we create a mirror image, and in so doing, we create chiral objects
+
+For rotation, we have four different types of rotation that we use in a formal description of symmetry
+
+There is two-fold rotation, which is 90 degrees, three-fold rotation, which is 120 degrees, four-fold
+rotation, which is 90 degrees, and six-fold rotation, which is 60 degree rotation
+
+We apply those rotations repeatedly until we return to the original position of the object
+
+Another way to describe these rotation points is the dyad, triad, tetrad or hexad rotation
+
+Rotation does not create a chiral relationship between the objects
+
+
+And finally we had a compound operation, known as glide
+
+This is where we put together reflection and translation
+
+Glide lines are illustrated only through a dashed line
+
+So to summarise this part of the course, objects are generated through the application of symmetry operators
+
+When the object sits away from symmetry operation, we generate the
+maximum number of objects
+
+This is known as a general position
+
+On the other hand, if the object sits right on the symmetry operator, we don’t generate any new objects
+
+And finally, we discover that there are ten, and only ten, point symmetry groups
+
+

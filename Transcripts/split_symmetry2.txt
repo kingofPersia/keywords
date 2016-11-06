@@ -1,0 +1,104 @@
+In this lecture then what we’re going to explore is the point symmetry of different flowers
+
+In particular we have to gain practice in the way in which we examine the rotation and reflection lines that are found in objects
+
+More specifically we need to understand and recognise rotation points whether these be diad, triad, tetrad or hexad points
+
+And you also need to be able immediately write down the mathematical symbol for these types of operations
+
+
+Now let’s consider rotation in flowers a little more generally
+
+This slide shows five different flowers all of which have a different point symmetry
+
+If we begin by looking in the flower at top left you can see it consists of two large petals and two small petals
+
+Therefore if we want to rotate that flower and leave it unchanged in its aspect we would have to rotate through 90º
+
+
+This type of rotation or a diad rotation is shown as a lens; this is a formal representation of the 180º rotation in crystallography and symmetry
+
+Moving on to the next flower where we have three petals which are large and three which are small we have to rotate through 120º
+
+This type of rotation is known as a triad rotation and illustrated by a triangular shape
+
+
+The next example is not a flower but a four-leaf clover as you know four-leaf clovers should bring you good luck
+
+In this case we need to rotate through 90º and the representation of this tetrad rotation is a square
+
+Next we have a flower with six petals so we have to rotate through increments of 60º so that the flower remains unchanged and the representation of the hexad rotation is the hexagonal symbol
+
+
+Of course as you know where you have rotation you sometimes have associated mirror lines and that is true in these examples
+
+Again if we start with the uppermost flower we find that there are two mirror lines, each mirror line is unique
+
+In the next example we can find three mirror lines but here every mirror is identical and each mirror passes through both a large and a small petal
+
+
+When we move to the four-leaf clover what we find are four mirror lines as shown
+
+One mirror line passes through the diagonal of the square, the other type passes through the face of the square
+
+And then for the flower with six petals we can find six mirror lines
+
+But in this case there are two unique mirror lines, some pass through the centre of the petals, some pass between the petals
+
+
+I also just want to touch upon the flower at the bottom
+
+Clearly it has five petals and to leave that flower unchanged in aspect through rotation you would have to have an increment of 72º
+
+And this could be shown as a pentagonal symbol
+
+There are five mirror lines in this case but only one is unique or, another way of saying it, all five mirror lines are identical
+
+
+But there’s one proviso in this last example
+
+5-fold rotation is never used when we describe three dimensional symmetry or indeed any symmetry formally and that’s not found directly in crystallography
+
+And I leave to you to think about why that might be so
+
+But towards the end of this course we will return to the question of why pentagonal symmetry is special
+
+
+So, now let’s define the point symmetry for all of these flowers
+
+In the first case, at the upper left side, you can see that we have two mirrors both unique plus the 2-fold rotation
+
+So, its point symmetry must be 2mm
+
+On the other hand if we move to the next flower we find that its point symmetry is 3m, 3-fold rotation but only one unique mirror
+
+It would not be described as 3mmm because every mirror is identical
+
+
+For the four-leaf clover the symmetry is 4mm, 4-fold rotation, two unique mirrors
+
+And finally for the last flower we see 6mm
+
+In this lecture we’ve learned that point symmetry only involves reflection and rotation
+
+Something that you have to be aware of and take care about is that the reflection or mirroring might be different
+
+
+So, we looked at flowers where we could find two mirror lines
+
+One mirror line might be a pair of large petals, the other mirror line might be just involving the small petals
+
+But these mirrors were quite different and this takes some care
+
+
+You also learned how to assign the point symmetry symbol, recall the point symmetry symbol has three parts
+
+The first part is always the rotation point if present so we can take the value of one, two, three, four or six
+
+This is followed by the mirror lines
+
+If there are two types of mirror the symbol is mm
+
+If there is only one type the symbol is m
+
+

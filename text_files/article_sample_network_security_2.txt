@@ -1,0 +1,28 @@
+The job of a DNS is to convert the human readable addresses entered into the address bar of a browser into machine readable IP addresses. For example when you type the URL (http://www.hotmail.com) into the address bar the first thing that occurs is the nearest DNS server is contacted and the IP address of hotmail domain is retrieved. Based on this IP address the website is opened.
+So a DNS is a huge database that stores IP addresses of different domains. These are cached and updated on a regular basis.
+
+DNS poisoning is also called DNS cache poisoning, and refers to the corruption of DNS tables and caches so that a domain name points to a malicious IP address. Once the user is re-directed to the malicious IP address his/her computer can be infected with worms, viruses, spy ware etc. Cache poisoning is mostly done through spam emails, or through web-links and banners that attracts users to click on them. A simple click causes the user to be re-directed to a DNS poisoned server.
+
+How to create DNS-poison attack:
+1.	If your target DNS server is running Microsoft’s DNS server, on W2K SP 1 or 2, you can poison DNS using an alias. You have to have control of a zone (yourname.com) and a DNS server. You create a zone on your dns server under the name you want to poison (example.com). Your DNS server thinks it is authoritative for the example.com zone.
+2.	Next you create a host record in example.com that points to a host you control. In your real zone (yourname.com), you create a CNAME record for a host like spoof that points to hostname at example.com, like www.example.com. Then you point your local stub resolver at the target DNS server (most DNS servers will resolve for anyone by default). When you try to lookup spoof.yourname.com, the target DNS server will find your dns server. Your dns server will see that spoof.yourname.com is a CNAME for www.example.com and look that up. Since it thinks it is authoritative for example.com, it will ask itself, and return that IP address to the target DNS server. Now it is in the targets DNS cache. Anyone who tried to resolve www.example.com from that DNS server will get the IP address of the host you defined in the example.com zone.
+3.	Another way is to sniff the traffic of the target DNS server and when it tries to resolve a host name, feed it the result of your choosing before the recursive query finishes. The first response wins.
+
+How to recover from a DNS-Poison attack: (Ref: isc.sans.org)
+
+1.	You need to be absolutely positive that you have not been infected with spyware. Many spyware/adware programs today will modify the DNS settings or local hosts file on Windows machines. So you should run your personal spyware/adware detection tool.
+
+2.	Try to find out the IP address of the malicious DNS server(s) (check site to see if it has been reported)
+
+3.	You may want to block the IP address of the malicious DNS server at your border routers/firewalls so that your so that you cache does not become poisoned again.
+
+4.	Cleaning up from a site-wide DNS cache poisoning may require flushing the cache on all of your DNS servers in your organization probably starting with the most externally facing DNS boxes first.
+
+5.	On Windows DNS servers, you can stop/start the DNS service to clear the cache. You can also use the dnscmd.exe command from the
+6.	resource kit:
+
+7.	dnscmd.exe /ClearCache
+
+8.	On Windows 2000, XP, and 2003 clients, you can flush the client cache by running "ipconfig /flushdns". (Please note that this will do nothing to clean-up a poisoned DNS caching server upstream.)
+
+9.	On BIND 9, you can clear the cache by running "rndc" command and executing the "flush" command. On BIND 8 or below, it appears that you have to restart the server.

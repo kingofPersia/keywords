@@ -1,0 +1,29 @@
+With cache poisoning an attacker attempts to insert a fake address record for an Internet domain into the DNS. If the server accepts the fake record, the cache is poisoned and subsequent requests for the address of the domain are answered with the address of a server controlled by the attacker. For as long as the fake entry is cached by the server (entries usually have a time to live -- or TTL -- of a couple of hours) subscriber's browsers or e-mail servers will automatically go to the address provided by the compromised DNS server. (See a slide show for how DNS cache poisoning works.)
+
+This kind of attack is often categorized as a "pharming" attack and it creates several problems. First, users think they are at a familiar site, but they aren't. Unlike with a "phishing" attack where an alert user can spot a suspicious URL, in this case the URL is legitimate. Remember, the browser resolves the address of the domain automatically so there is no intervention of any kind on the part of the users and, since nothing unusual has happened, they have no reason to be suspicious.
+
+Another problem is that hundreds or even thousands of users can be redirected if an attacker successfully inserts a single fake entry into a caching server. The scale of the problem is amplified by the popularity of the domain being requested. Under these circumstances, even a moderately experienced hacker can cause a lot of trouble, obtaining passwords and other valuable or sensitive information.
+
+It is possible to attack e-mail systems in a similar way. Rather than inserting a fake record for a Web server into a DNS caching server, the attacker inserts a fake record for a mail server, thereby redirecting corporate e-mail to a server they control.
+
+So what does an attacker need to do to persuade a caching server to accept a fake entry? When a DNS caching server gets a query from a subscriber for a domain, it looks to see if it has an entry cached. If it does not it asks authoritative DNS servers (run by domain registries or domain owners themselves) and waits for their responses.
+
+Prior to this latest vulnerability, attackers could only exploit this narrow opening: They had to beat legitimate authoritative DNS servers by sending a fake query response, hoping they arrive at the caching server first with the correct query parameter values. These races typically only lasted a fraction of a second, making it difficult for an attacker to succeed.
+
+But the dynamics of the race have been dramatically altered in favor of the attacker with this new vulnerability because a security researcher figured out a way to eliminate the narrow time window. This is accomplished by rapidly firing questions at the caching server that an attacker knows the server will not be able to answer. For instance, an attacker can ask where 1q2w3e.google.com is, knowing a caching server is unlikely to have such an entry. That provokes subsequent questions from the caching server and creates millions of opportunities to send fake answers.
+
+Instead of only one race the attacker can have millions, creating more chances to guess the right values for query parameters and making the attack dangerous. In fact, it was demonstrated that open source DNS servers could be compromised in 10 seconds.
+
+Poisoning an entry for 1q2w3e.google.com is not useful since no one will ever request that domain, but this is where the last part of the attack comes into play: In the fake answers the attacker also points the caching server to a fake name-server for the domain the attacker wants to compromise. The caching server stores both of these pieces of information.
+
+Since the attacker now controls the name server for the domain, every subsequent query for the domain will be directed to the attacker's server. This means the attacker now controls addressing for all the subdomains for the domain: www.bigbank.com, mail.bigbank.com, etc. This is extraordinarily powerful; any request for any subdomain can be directed to a server of the attacker's choosing.
+
+To address these problems it was decided that the UDP port used for a query should no longer be the default port 53, but rather a port randomly chosen from the entire range of UDP ports (less the reserved ports). UDP source port randomization, or UDP SPR, as it is called, makes it harder for an attacker to guess query parameters since now both the 16-bit query ID and as many as 16 additional bits for the UDP port must be correct, for a total of up to 4 billion combinations.
+
+But enterprises discovered their DNS servers were situated behind various devices that provide network address translation (NAT). Most NATs de-randomized the UDP ports used by the DNS server, rendering the new fix less effective. IT managers were also not enthusiastic about opening up the full range of UDP ports in their firewalls. To make matters worse, another security researcher demonstrated that it was still possible to poison a DNS server even with the protection afforded by randomization across 64,000 UDP ports.
+
+Now what?
+
+It's time to consider alternative means of securing the DNS. UDP source port randomization is a useful defense, but a balance needs to be struck between the protection afforded the DNS by UDP SPR and the exposure created by opening a range of ports or degrading firewall performance. Secure modes of operation for DNS servers, such as switching to a TCP connection when potential attacks are detected, are another useful defense.
+
+Additional defenses are needed when an attacker gets lucky and guesses the necessary parameters to spoof a query response. This means DNS servers need to get smarter and analyze query responses so potentially harmful information can be discarded from fake answers sent by an attacker.

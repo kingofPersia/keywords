@@ -1,0 +1,19 @@
+What is Full Stack Web Development? Let me start by clarifying a few terms, so that we start with a common understanding about this area. First, we hear people talking about Front end and Back end, or sometimes the Client-side and the Server-side. Now when we talk about Front end we are primarily talking about presenting the data to the users. So this is where the users access the web through the browser. And so we would be using technologies like HTML, CSS and JavaScript to target the end users. 
+
+The Back end is more concerned with the business logic and the data aspect of our 
+
+web application, so this might be implemented in one of several languages. 
+
+We often hear people talking about the Three Tier Architecture for web development and implementation. Now in this approach, which is a common client-server software architecture pattern, the entire development is divided into three layers. The Presentation layer, which is concerned with the UI related issues and how to present the data to the end-user. Then we have the Business Logic layer, which is more concerned with 
+
+data validation and processing the data in order to generate information for the users. And then we have the Data Access layer, which deals with data persistence and storage of data behind the scenes, for example, in a database. 
+
+Exploring this further, let's look at what is implemented in each of these three layers in more detail. Now, the Business Logic layer is typically implemented, traditionally, in a server, where we use languages like Ruby, Python, C++, Java, on ASP.net, to implement a server. This server in turn, is talking to a Back end database management system to exchange data and in turn, will be generating 
+
+the Front end display of data to the user 
+
+by Server-side rendering of the HTML, CSS and JavaScript. This has been the traditional approach that that has been used successfully in the development. Now in this approach, we need specialists in each of these three layers. So, you have a Front end specialist who would be well versed in HTML, CSS, and JavaScript. And then you have the Back end specialists, one who would be well-versed in Server-side implementations, say, for example, one of the languages used for Server-side implementation. And then you would have a data specialist who would be mostly concerned with the databases and data persistence aspect of our web development. 
+
+There is an increasing trend towards Full Stack Web Development where a single language is used for implementation over the entire stack. So you could be having the front implemented as a single page application, using one of the JavaScript frameworks like AngularJS. Then the Server-side could be implemented using technologies like NodeJS and NodeJS modules, which again, depends on JavaScript. And then, the Data Access or data storage part implemented using Technologies like MongoDB, which works based on storing JSON data, and serving up information in the form of JSON data. Now, JSON has become the standard format for data interchange among the three layers. Server side increasingly is delivering a REST API, so that you can target multiple platforms through the REST API. So, essentially, the server is serving up data in the form of JSON, which can then be rendered either on a standard web browser, or on a mobile device using one of the multiplied form, hybrid mobile application development environments. 
+
+So, in this particular specialization we are targeting the entire stack. We will  look at HTML, CSS, and JavaScript and then we will look at web UI development using Bootstrap. Then we'll look at Front end JavaScript frameworks like AngularJS. Then we'll look at NodeJS and NodeJS Modules, and also review Back end as a service, and also review data support through MongoDB on the Server side. 
